@@ -4,31 +4,31 @@
       "MC": {
         "v1": {
           "address": "0x4C574B604559BF9619be8139765a1aB8292ddEfE",
-          "abiUrl": ""
+          "abiUrl": "abi/MC.json"
         }
       },
       "MCNFT": {
         "v1": {
           "address": "0x4DAc235D88048eabE197bca00fD97464C6CD2315",
-          "abiUrl": ""
+          "abiUrl": "abi/MCNFT.json"
         }
       },
       "MCSingleMarket": {
         "v1": {
           "address": "0x8b9AE350e63b32d631Ee749ee356e76a8C04Fd07",
-          "abiUrl": ""
+          "abiUrl": "abi/MCSingleMarket-v1.json"
         }
       },
       "MCSingleAuction": {
         "v1": {
           "address": "0xAaC0E1553f5dB10233E26E9C2744BCf4A2Dd2B14",
-          "abiUrl": ""
+          "abiUrl": "abi/MCSingleAuction-v1.json"
         }
       },
       "MCLottery": {
         "v1": {
           "address": "0xcA27ca5833ad8d76bF31E09d707816F91Fb0f270",
-          "abiUrl": ""
+          "abiUrl": "abi/MCLottery-v1.json"
         }
       }
     },
