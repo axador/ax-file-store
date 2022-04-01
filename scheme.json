@@ -34,6 +34,10 @@
         "v1": {
           "address": "0xcA27ca5833ad8d76bF31E09d707816F91Fb0f270",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v1.json"
+        },
+        "v2": {
+          "address": "0x99Dce19fb6fB3c68AE7F34A07670690220916B64",
+          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v2.json"
         }
       }
     },
@@ -43,7 +47,7 @@
       "MCNFT": "v1",
       "MCSingleMarket": "v1",
       "MCSingleAuction": "v1",
-      "MCLottery": "v1"
+      "MCLottery": "v2"
     }
   }
 }
