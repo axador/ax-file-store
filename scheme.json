@@ -15,7 +15,11 @@
       "MCNFT": {
         "v1": {
           "address": "0x4DAc235D88048eabE197bca00fD97464C6CD2315",
-          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCNFT.json"
+          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCNFT-v1.json"
+        },
+        "v2": {
+          "address": "0xD41837f6324e191797f384d47844F1a52A31f9d6",
+          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCNFT-v2.json"
         }
       },
       "MCSingleMarket": {
@@ -44,7 +48,7 @@
     "current": {
       "Any20": "default",
       "MC": "v1",
-      "MCNFT": "v1",
+      "MCNFT": "v2",
       "MCSingleMarket": "v1",
       "MCSingleAuction": "v1",
       "MCLottery": "v2"
