@@ -28,7 +28,7 @@
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleMarket-v1.json"
         },
         "v2": {
-          "address": "0xd00d6df9b39dE3FFA558F9e87d3b56ed3d350066",
+          "address": "0x77d8bF20c8e519CD4C56e921927e580c94c67DB5",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleMarket-v2.json"
         }
       },
@@ -38,13 +38,13 @@
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleAuction-v1.json"
         },
         "v2": {
-          "address": "0x50Ae44Df5622f532512B39efe60f5DF304d06B59",
+          "address": "0x4a7020bBE62390B8A21E786bEaC8C7Cb68da90c0",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleAuction-v2.json"
         }
       },
       "MCLottery": {
         "v1": {
-          "address": "0xcA27ca5833ad8d76bF31E09d707816F91Fb0f270",
+          "address": "0x644C0f9e1908069047786F1242bCdA5fF3C63086",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v1.json"
         },
         "v2": {
@@ -52,7 +52,7 @@
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v2.json"
         },
         "v3": {
-          "address": "0xD53A16Ef5D02f6a4b124a4e7612C87eec4551793",
+          "address": "0x644C0f9e1908069047786F1242bCdA5fF3C63086",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v3.json"
         }
       }
