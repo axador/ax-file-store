@@ -26,12 +26,20 @@
         "v1": {
           "address": "0x8b9AE350e63b32d631Ee749ee356e76a8C04Fd07",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleMarket-v1.json"
+        },
+        "v2": {
+          "address": "0xd00d6df9b39dE3FFA558F9e87d3b56ed3d350066",
+          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleMarket-v2.json"
         }
       },
       "MCSingleAuction": {
         "v1": {
           "address": "0xAaC0E1553f5dB10233E26E9C2744BCf4A2Dd2B14",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleAuction-v1.json"
+        },
+        "v2": {
+          "address": "0x50Ae44Df5622f532512B39efe60f5DF304d06B59",
+          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCSingleAuction-v2.json"
         }
       },
       "MCLottery": {
@@ -42,6 +50,10 @@
         "v2": {
           "address": "0x99Dce19fb6fB3c68AE7F34A07670690220916B64",
           "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v2.json"
+        },
+        "v3": {
+          "address": "0xD53A16Ef5D02f6a4b124a4e7612C87eec4551793",
+          "abiUrl": "https://raw.githubusercontent.com/axador/ax-file-store/master/abi/MCLottery-v3.json"
         }
       }
     },
@@ -49,9 +61,9 @@
       "Any20": "default",
       "MC": "v1",
       "MCNFT": "v2",
-      "MCSingleMarket": "v1",
-      "MCSingleAuction": "v1",
-      "MCLottery": "v2"
+      "MCSingleMarket": "v2",
+      "MCSingleAuction": "v2",
+      "MCLottery": "v3"
     }
   }
 }
