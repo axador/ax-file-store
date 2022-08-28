@@ -236,57 +236,6 @@
   {
     "inputs": [
       {
-        "components": [
-          {
-            "internalType": "address",
-            "name": "nftContractAddress",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "tokenId",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "tokensAmount",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "tokensByAuthor",
-            "type": "uint256"
-          },
-          {
-            "internalType": "address",
-            "name": "bidder",
-            "type": "address"
-          },
-          {
-            "internalType": "bytes",
-            "name": "serviceSignature",
-            "type": "bytes"
-          }
-        ],
-        "internalType": "struct MCAuctionV2Storage.BidPremiumVoucher",
-        "name": "voucher",
-        "type": "tuple"
-      }
-    ],
-    "name": "_hash",
-    "outputs": [
-      {
-        "internalType": "bytes32",
-        "name": "",
-        "type": "bytes32"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "address",
         "name": "",
         "type": "address"
@@ -431,7 +380,7 @@
             "type": "bytes"
           }
         ],
-        "internalType": "struct MCAuctionV2Storage.BidPremiumVoucher",
+        "internalType": "struct BidPremiumVoucher",
         "name": "voucher",
         "type": "tuple"
       }
@@ -452,6 +401,33 @@
         "internalType": "uint256",
         "name": "_tokenId",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "referrer",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "referrerShare",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "serviceSignature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct ReferralVoucher",
+        "name": "referralVoucher",
+        "type": "tuple"
       }
     ],
     "name": "buyNowSingle",
@@ -593,11 +569,57 @@
         "internalType": "uint256",
         "name": "_tokenId",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "referrer",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "referrerShare",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "serviceSignature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct ReferralVoucher",
+        "name": "referralVoucher",
+        "type": "tuple"
       }
     ],
     "name": "finalizeSingleAuction",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "data",
+        "type": "bytes32"
+      }
+    ],
+    "name": "hashTypedDataV4",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -632,6 +654,19 @@
       }
     ],
     "name": "initializeV2",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_referralHelperContractAddress",
+        "type": "address"
+      }
+    ],
+    "name": "initializeV3",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -697,6 +732,19 @@
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "referralHelperContractAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [
       {
         "internalType": "address",
@@ -731,6 +779,19 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newReferralHelper",
+        "type": "address"
+      }
+    ],
+    "name": "setReferralHelper",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
