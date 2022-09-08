@@ -182,6 +182,33 @@
         "internalType": "uint256",
         "name": "ticketCount",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "referrer",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "referrerShare",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "serviceSignature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct ReferralVoucher",
+        "name": "referralVoucher",
+        "type": "tuple"
       }
     ],
     "name": "buyTicket",
@@ -309,33 +336,6 @@
         ],
         "internalType": "struct FinalizationVoucher",
         "name": "voucher",
-        "type": "tuple"
-      },
-      {
-        "components": [
-          {
-            "internalType": "address",
-            "name": "referrer",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "referrerShare",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "nonce",
-            "type": "uint256"
-          },
-          {
-            "internalType": "bytes",
-            "name": "serviceSignature",
-            "type": "bytes"
-          }
-        ],
-        "internalType": "struct ReferralVoucher",
-        "name": "referralVoucher",
         "type": "tuple"
       }
     ],
@@ -481,6 +481,11 @@
         "internalType": "address",
         "name": "author",
         "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "referrerValue",
+        "type": "uint256"
       }
     ],
     "stateMutability": "view",
