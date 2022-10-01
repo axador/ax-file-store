@@ -1,85 +1,85 @@
 {
   "common": {
     "validation": {
-      "required": "-",
-      "notEqual": "-",
-      "beforeDate": "-{boundary}",
-      "afterDate": "-{boundary}",
-      "lessThan": "-{boundary}",
-      "greatOrEqualThan": "-{boundary}",
-      "greatThan": "-{boundary}",
-      "balanceNotEnough": "-",
-      "invalidAddress": "-",
-      "notZero": "-"
+      "required": "Обязательное поле",
+      "notEqual": "Поле не совпадает",
+      "beforeDate": "Дата должна дыть до {boundary}",
+      "afterDate": "Дата должна быть после {boundary}",
+      "lessThan": "Значение должно быть меньше чем {boundary}",
+      "greatOrEqualThan": "Значение должно быть больше чем {boundary} или равно",
+      "greatThan": "Значение должно быть больше чем {boundary}",
+      "balanceNotEnough": "Баланса недостаточно",
+      "invalidAddress": "Формат адреса не правильный",
+      "notZero": "Не должен быть 0"
     },
-    "approveButton": "-",
-    "loadMoreButton": "-"
+    "approveButton": "Подтвердить",
+    "loadMoreButton": "Загрузить ещё"
   },
   "components": {
     "auctionCard": {
-      "endInLabel": "-",
-      "startInLabel": "-",
-      "endedLabel": "-",
-      "currentBidLabel": "-",
-      "collectionLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "bidButton": "-"
+      "endInLabel": "Закончится через",
+      "startInLabel": "Начнется через",
+      "endedLabel": "Закончен",
+      "currentBidLabel": "Текущая ставка",
+      "collectionLabel": "Коллекция",
+      "ownerLabel": "Владелец",
+      "manageButton": "Управление",
+      "bidButton": "Ставка"
     },
     "burnNFTForm": {
-      "title": "-",
-      "alert": "-",
-      "description": "-",
-      "securityCodeHelpLabel": "-",
-      "securityCodeLabel": "-",
-      "securityCodePlaceholder": "-",
-      "burnButton": "-"
+      "title": "Сжечь",
+      "alert": "ВНИМАНИЕ",
+      "description": "Токен будет уничтожен, операцию невозможно будет отменить.",
+      "securityCodeHelpLabel": "Код безопасности",
+      "securityCodeLabel": "Код безопастности",
+      "securityCodePlaceholder": "Введите 6 символов",
+      "burnButton": "Сжечь"
     },
     "collectionCard": {
-      "itemsInCollectionLabel": "-",
-      "openButton": "-"
+      "itemsInCollectionLabel": "Коллекция",
+      "openButton": "Открыть"
     },
     "createAuctionNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "startPriceLabel": "-",
-      "startPricePlaceholder": "-",
-      "buyNowPriceLabel": "-",
-      "buyNowPricePlaceholder": "-",
-      "auctionTypeLabel": "-",
-      "startedNowTypeLabel": "-",
-      "startedNowDescription": "-",
-      "durationLabel": "-",
-      "durationPlaceholder": "-",
-      "limitTypeLabel": "-",
-      "startDateLabel": "-",
-      "endDateLabel": "-",
-      "walletAccessCheck": "-",
-      "quantityCheckLabel": "-",
-      "quantityCheckPlaceholder": "-",
-      "createAuctionButton": "-"
+      "title": "Создать аукцион",
+      "paymentTokenLabel": "Токен платежа",
+      "startPriceLabel": "Начальная цена",
+      "startPricePlaceholder": "Введите цену",
+      "buyNowPriceLabel": "Цена моментальной покупки",
+      "buyNowPricePlaceholder": "Введите цену",
+      "auctionTypeLabel": "Тип",
+      "startedNowTypeLabel": "Мгновенный запуск",
+      "startedNowDescription": "Аукцион стартует с момента создания",
+      "durationLabel": "Продолжительность",
+      "durationPlaceholder": "Введите продолжительность",
+      "limitTypeLabel": "Отложенный",
+      "startDateLabel": "Начало",
+      "endDateLabel": "Конец",
+      "walletAccessCheck": "????",
+      "quantityCheckLabel": "Количество токенов автора",
+      "quantityCheckPlaceholder": "Введите количество токенов",
+      "createAuctionButton": "Создать"
     },
     "createLotteryNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "maxTicketLabel": "-",
-      "maxTicketPlaceholder": "-",
-      "ticketPriceLabel": "-",
-      "ticketPricePlaceholder": "-",
-      "endDateLabel": "-",
-      "createLotteryButton": "-"
+      "title": "СОздать лотерею",
+      "paymentTokenLabel": "Токен платежа",
+      "maxTicketLabel": "Количество билетов",
+      "maxTicketPlaceholder": "Введите количество билетов",
+      "ticketPriceLabel": "Цена билета",
+      "ticketPricePlaceholder": "Введите цену билета",
+      "endDateLabel": "Конец",
+      "createLotteryButton": "Создать"
     },
     "createSaleNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "fixedPriceLabel": "-",
-      "fixedPricePlaceholder": "-",
-      "createMarketPositionButton": "-"
+      "title": "Продать",
+      "paymentTokenLabel": "Токен платежа",
+      "fixedPriceLabel": "Цена",
+      "fixedPricePlaceholder": "Введите цену",
+      "createMarketPositionButton": "Продать"
     },
     "footer": {
-      "privacyLinkLabel": "-",
-      "termsLinkLabel": "-",
-      "copyright": "-{year}"
+      "privacyLinkLabel": "Конфиденциальность",
+      "termsLinkLabel": "Условия",
+      "copyright": "©{year} Mediacoin | Все права защищены"
     },
     "navigation": {
       "lotteryLinkLabel": "Лотерея",
@@ -97,287 +97,287 @@
       }
     },
     "lotteryCard": {
-      "leftTimeLabel": "-",
-      "endedLabel": "-",
-      "soldOutLabel": "-",
-      "myTicketsLabel": "-",
-      "collectionNameLabel": "-",
-      "manageButton": "-",
-      "buyTicketsButton": "-"
+      "leftTimeLabel": "Осталось",
+      "endedLabel": "Закончен",
+      "soldOutLabel": "Продано",
+      "myTicketsLabel": "Моих билетов",
+      "collectionNameLabel": "Коллекция",
+      "manageButton": "Управление",
+      "buyTicketsButton": "Купить"
     },
     "marketCard": {
-      "priceLabel": "-",
-      "collectionNameLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "buyButton": "-"
+      "priceLabel": "Цена",
+      "collectionNameLabel": "Коллекция",
+      "ownerLabel": "Владелец",
+      "manageButton": "Управление",
+      "buyButton": "Купить"
     },
     "networkSwitcher": {
-      "title": "-"
+      "title": "Сменить сеть"
     },
     "nftCard": {
-      "collectionNameLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "openButton": "-"
+      "collectionNameLabel": "Имя коллекции",
+      "ownerLabel": "Владелец",
+      "manageButton": "Управление",
+      "openButton": "Открыть"
     },
     "nftFilters": {
       "type": {
-        "none": "-",
-        "market": "-",
-        "auction": "-",
-        "lottery": "-"
+        "none": "не выставлен",
+        "market": "Рынок",
+        "auction": "Аукцион",
+        "lottery": "Лотерея"
       },
       "media": {
-        "audio": "-",
-        "image": "-",
-        "3d": "-",
-        "video": "-"
+        "audio": "Аудио",
+        "image": "Картинка",
+        "3d": "3D",
+        "video": "Видео"
       },
       "sorting": {
-        "creatingAsc": "-",
-        "creatingDesc": "-"
+        "creatingAsc": "Создание| Возрастание",
+        "creatingDesc": "Создание| Убывание"
       },
-      "nftTypeLabel": "-",
-      "selectNftTypeLabel": "-",
-      "mediaTypeLabel": "-",
-      "selectMediaTypeLabel": "-",
-      "sortingLabel": "-"
+      "nftTypeLabel": "Тип",
+      "selectNftTypeLabel": "Выбрать тип NFT",
+      "mediaTypeLabel": "Медиа",
+      "selectMediaTypeLabel": "Выбрать медиа",
+      "sortingLabel": "Сортировка"
     },
     "notifications": {
       "completed": {
-        "transactionCompletedLabel": "-",
-        "transactionFailedLabel": "-",
-        "openScannerLinkLabel": "-"
+        "transactionCompletedLabel": "Транзакция выполнена",
+        "transactionFailedLabel": "Транзакция выполнена",
+        "openScannerLinkLabel": "Открыть сканер"
       },
       "mining": {
-        "operationAmountInPendingLabel": "-{txCountPending}"
+        "operationAmountInPendingLabel": "В процессе {txCountPending}"
       }
     },
     "profileBanner": {
-      "share": "-",
-      "unknownUser": "-",
-      "referralSettingsButton": "-",
-      "editButton": "-"
+      "share": "Поделиться",
+      "unknownUser": "Низвестный",
+      "referralSettingsButton": "Рефералка",
+      "editButton": "Ред."
     },
     "profileSidebar": {
-      "createNftLink": "-",
-      "portfolio": "-",
-      "collections": "-"
+      "createNftLink": "Создать NFT",
+      "portfolio": "Портфолио",
+      "collections": "Коллекции"
     },
     "transferNFTForm": {
-      "title": "-",
-      "description": "-",
-      "accountLabel": "-",
-      "accountPlaceholder": "-",
-      "transferButton": "-"
+      "title": "Передать токен",
+      "description": "Передача токена другому пользователю, операцию невозможно будет отменить",
+      "accountLabel": "Адрес кошелька",
+      "accountPlaceholder": "Введите адрес",
+      "transferButton": "Передать"
     },
     "txErrorPopup": {
-      "title": "-",
-      "copyHelpLabel": "-",
-      "copyButton": "-",
-      "closeButton": "-",
-      "defaultError": "-"
+      "title": "Ошибка",
+      "copyHelpLabel": "Скопировано",
+      "copyButton": "Копировать",
+      "closeButton": "Закрыть",
+      "defaultError": "Операция отменена пользователем"
     }
   },
   "pages": {
     "becomeCreatorPage": {
-      "title": "-",
-      "description": "-",
-      "minterMessage": "-",
-      "requestedMessage": "-",
-      "rejectedMessage": "-",
-      "becomeCreatorButton": "-"
+      "title": "Стать минтером",
+      "description": "Создайте запрос, на получение роли минтера. Вам будет доступна функция самому создавать и размещать токены на рынке, создавать лотереи и аукционы",
+      "minterMessage": "Вы уже минтер",
+      "requestedMessage": "Ваш запрос рассматривается",
+      "rejectedMessage": "Вам было отказано в роли",
+      "becomeCreatorButton": "Стать минтером"
     },
     "collectionExplorerPage": {
       "collectionInfo": {
-        "unknownCreatorLabel": "-",
-        "ownerAmountLabel": "-",
-        "itemsInCollectionLabel": "-",
-        "editButton": "-"
+        "unknownCreatorLabel": "Неизвестный",
+        "ownerAmountLabel": "Владельцев",
+        "itemsInCollectionLabel": "В колекции",
+        "editButton": "Ред."
       },
       "editCollectionForm": {
-        "unknownCreatorLabel": "-",
-        "uploadRestrictionLabel": "-{restriction}",
-        "titleLabel": "-",
-        "titlePlaceholder": "-",
-        "descriptionLabel": "-",
-        "descriptionPlaceholder": "-",
-        "ownerAmountLabel": "-",
-        "itemsInCollectionLabel": "-",
-        "saveButton": "-",
-        "closeButton": "-"
+        "unknownCreatorLabel": "Неизвестный",
+        "uploadRestrictionLabel": "Рзмер файла до {restriction}",
+        "titleLabel": "Название",
+        "titlePlaceholder": "Введите название",
+        "descriptionLabel": "Описание",
+        "descriptionPlaceholder": "Введите описание",
+        "ownerAmountLabel": "Владельцев",
+        "itemsInCollectionLabel": "В коллекции",
+        "saveButton": "Сохранить",
+        "closeButton": "Закрыть"
       }
     },
     "collectionsExplorerPage": {
-      "collectionNamePlaceholder": "-"
+      "collectionNamePlaceholder": "Введите название"
     },
     "explorePage": {
-      "tokensTab": "-",
-      "lotteriesTab": "-",
-      "collectionsTab": "-"
+      "tokensTab": "Тоены",
+      "lotteriesTab": "Лотереи",
+      "collectionsTab": "Коллекции"
     },
     "mainPage": {
       "auctionTape": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
+        "title": "Аукционы",
+        "description": "Мы собрали самые лучшие работы от самых лучших создателей",
+        "moreLink": "Посмотреть все"
       },
       "collectionTape": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
+        "title": "Последние коллекции",
+        "description": "Найди то что тебе по душе и пополняй свое портфолио",
+        "moreLink": "Создать свою коллекцию"
       },
       "recentList": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
+        "title": "Новые, качественные токены",
+        "description": "Мы заботимся о качестве контента, все лучшее для тебя",
+        "moreLink": "Найти новинки"
       },
       "topSection": {
-        "title": "-",
-        "description": "-",
-        "profileLinkLabel": "-",
-        "artsLabel": "-",
-        "tradingVolumeLable": "-",
-        "participatorsLabel": "-",
-        "openCollectionsButton": "-"
+        "title": "Создавай, Находи & Собирай NFT",
+        "description": "Покупай и продавай NFT от лучших мировых художников. Более 1000 премиальных цифровых произведений искусства доступны для тебя!",
+        "profileLinkLabel": "Начать собирать",
+        "artsLabel": "Arts",
+        "tradingVolumeLable": "Объем",
+        "participatorsLabel": "Участников",
+        "openCollectionsButton": "Увидеть больше"
       }
     },
     "masterPage": {
-      "lotteryLinkLabel": "-",
-      "becomeCreatorLinkLabel": "-",
-      "explorerLinkLabel": "-"
+      "lotteryLinkLabel": "Лотереи",
+      "becomeCreatorLinkLabel": "Стать минтером",
+      "explorerLinkLabel": "Найти"
     },
     "profileCollectionsPage": {
-      "emptyList": "-"
+      "emptyList": "Пока что список пуст"
     },
     "profileEditPage": {
-      "title": "-",
+      "title": "Редактировать профиль",
       "profileEditForm": {
-        "commonSectionTitle": "-",
-        "firstNameLabel": "-",
-        "firstNamePlaceholder": "-",
-        "lastNameLabel": "-",
-        "lastNamePlaceholder": "-",
-        "descriptionLabel": "-",
-        "descriptionPlaceholder": "-",
-        "socialSectionTitle": "-",
-        "emailLabel": "-",
-        "emailPlaceholder": "-",
-        "instagramLabel": "-",
-        "instagramPlaceholder": "-",
-        "telegramLabel": "-",
-        "telegramPlaceholder": "-",
-        "twitterLabel": "-",
-        "twitterPlaceholder": "-",
-        "signAlert": "-",
-        "cancelButton": "-",
-        "updateButton": "-"
+        "commonSectionTitle": "Общая информация",
+        "firstNameLabel": "Имя",
+        "firstNamePlaceholder": "Ввведите имя",
+        "lastNameLabel": "Фамилия",
+        "lastNamePlaceholder": "Введите фамилию",
+        "descriptionLabel": "Описание",
+        "descriptionPlaceholder": "Введите описание",
+        "socialSectionTitle": "Социальные сети",
+        "emailLabel": "Почта",
+        "emailPlaceholder": "Введите почту",
+        "instagramLabel": "Ссылка на instagram",
+        "instagramPlaceholder": "Вставте ссылку",
+        "telegramLabel": "Ссылка на telegram",
+        "telegramPlaceholder": "Вставте ссылку",
+        "twitterLabel": "Ссылка на twitter",
+        "twitterPlaceholder": "Вставте ссылку",
+        "signAlert": "Подпишите сообщение для сохранения",
+        "cancelButton": "Отмена",
+        "updateButton": "Обновить"
       },
       "profileEditUploadPhoto": {
-        "description": "-",
-        "uploadPhotoButton": "-"
+        "description": "Загружайте фото 1:1 соотношением до 500KB",
+        "uploadPhotoButton": "Загрузить"
       }
     },
     "profilePage": {
-      "noProfileLabel": "-",
-      "joinToUsButton": "-",
+      "noProfileLabel": "У вас езе нет профиля",
+      "joinToUsButton": "Присоеденяйтесь",
       "referralFrom": {
-        "title": "-",
-        "referralLinkLabel": "-",
-        "copyButton": "-",
-        "copiedLabel": "-",
-        "referralUsersLabel": "-",
-        "earningDetailsLabel": "-"
+        "title": "Реферальная программа",
+        "referralLinkLabel": "Реферальная ссылка",
+        "copyButton": "Копировать",
+        "copiedLabel": "Скопировано",
+        "referralUsersLabel": "Пользователь перешло",
+        "earningDetailsLabel": "Детализация дохода"
       }
     },
     "profilePortfolioPage": {
-      "emptyList": "-"
+      "emptyList": "Твой портфолио пока пустой"
     },
 
     "tokenPage": {
-      "creatorLabel": "-",
-      "ownerLabel": "-",
-      "notForSaleText": "-",
-      "propertyOfLabel": "-",
-      "priceHistoryTitle": "-",
+      "creatorLabel": "Создатель",
+      "ownerLabel": "Владелец",
+      "notForSaleText": "Данный окен пока не учавствует ни в одном из событий",
+      "propertyOfLabel": "Свойства токена ",
+      "priceHistoryTitle": "История цены",
       "auctionBidForm": {
-        "bidLabel": "-",
-        "bidPlaceholder": "-",
-        "bidButton": "-"
+        "bidLabel": "Ставка",
+        "bidPlaceholder": "Ввведите ставку",
+        "bidButton": "Поставить"
       },
       "auctionForm": {
-        "currentBid": "-",
-        "minBid": "-",
-        "eventName": "-",
-        "auctionExpiredText": "-"
+        "currentBid": "Текущая ставка",
+        "minBid": "Минимальная ставка",
+        "eventName": "Аукцион",
+        "auctionExpiredText": "Аукцон закончен"
       },
       "auctionInstantForm": {
-        "instantBuyLabel": "-",
-        "buyNowButton": "-"
+        "instantBuyLabel": "Купить сейчас",
+        "buyNowButton": "Купить"
       },
       "buyForm": {
-        "priceLabel": "-",
-        "royaltyFeeLabel": "-",
-        "buyButton": "-"
+        "priceLabel": "Цена",
+        "royaltyFeeLabel": "Комиссия автора",
+        "buyButton": "Купить"
       },
       "buyTicketForm": {
-        "iBoughtLabel": "-",
-        "ticketPriceLabel": "-",
-        "ticketsSoldLabel": "-",
-        "myShare": "-{share}",
-        "myTicketsValue": "-{ticketsLeft}",
-        "soldOutLabel": "-",
-        "eventName": "-",
-        "ticketsLabel": "-",
-        "ticketsPlaceholder": "-",
-        "userSpendLabel": "-",
-        "soldOutButton": "-",
-        "buyButton": "-",
-        "lotteryEndedText": "-"
+        "iBoughtLabel": "Я купил",
+        "ticketPriceLabel": "Цена билета",
+        "ticketsSoldLabel": "Билетов продано",
+        "myShare": "Доля {share}",
+        "myTicketsValue": "Я купил {ticketsLeft}",
+        "soldOutLabel": "Все продано",
+        "eventName": "Лотерея",
+        "ticketsLabel": "Билеты",
+        "ticketsPlaceholder": "Введите количество билетов",
+        "userSpendLabel": "Вы потратите",
+        "soldOutButton": "Все продано",
+        "buyButton": "Купить",
+        "lotteryEndedText": "Лотерея окончена"
       },
       "cancelSaleForm": {
-        "priceLabel": "-",
-        "royaltiesLabel": "-",
-        "cancelButton": "-"
+        "priceLabel": "Цена",
+        "royaltiesLabel": "Комиссия автора",
+        "cancelButton": "Отменить"
       },
       "eventTimer": {
-        "startEventLabel": "-{eventName}",
-        "endEventLabel": "-{eventName}",
-        "days": "-",
-        "hours": "-",
-        "minutes": "-",
-        "seconds": "-",
-        "eventEndWarning": "-{eventName}"
+        "startEventLabel": "{eventName} начнется",
+        "endEventLabel": "-{eventName} закончится",
+        "days": "дней",
+        "hours": "часов",
+        "minutes": "минут",
+        "seconds": "секунда",
+        "eventEndWarning": "{eventName} завершился"
       },
       "manageAuctionForm": {
-        "currentBid": "-",
-        "minBid": "-",
-        "eventName": "-",
-        "auctionExpiredText": "-",
-        "hasBidWarning": "-",
-        "finalizeButton": "-",
-        "cancelButton": "-"
+        "currentBid": "Текущая ставка",
+        "minBid": "Мин ставка",
+        "eventName": "Аукцион",
+        "auctionExpiredText": "Аукцион закончен",
+        "hasBidWarning": "Уже есть ставка",
+        "finalizeButton": "Завершить",
+        "cancelButton": "Отменить"
       },
       "manageLotteryForm": {
-        "ticketPriceLabel": "-",
-        "ticketsLeftLabel": "-",
-        "soldOutLabel": "-",
-        "ticketsLeftValueLabel": "-{ticketsLeft}",
-        "soldShare": "-{share}",
-        "eventName": "-",
-        "lotteryNotEndedMessage": "-",
-        "winnerLabel": "-",
-        "finalizeButton": "-",
-        "cancelButton": "-"
+        "ticketPriceLabel": "Цена за билет",
+        "ticketsLeftLabel": "Осталось",
+        "soldOutLabel": "Все продано",
+        "ticketsLeftValueLabel": "Осталось {ticketsLeft}",
+        "soldShare": "Доля {share}",
+        "eventName": "Лотерея",
+        "lotteryNotEndedMessage": "Лотерея еще не закончена",
+        "winnerLabel": "Победитель",
+        "finalizeButton": "Завершить",
+        "cancelButton": "Отменить"
       },
       "managerTokenForm": {
-        "royaltyFeeLabel": "-",
-        "sellButton": "-",
-        "createAuctionButton": "-",
-        "createLotteryButton": "-",
-        "transferToAccountButton": "-",
-        "burnTokenButton": "-"
+        "royaltyFeeLabel": "Комиссия автора",
+        "sellButton": "Продать",
+        "createAuctionButton": "Создать аукцион",
+        "createLotteryButton": "Создать лотерею",
+        "transferToAccountButton": "Передать",
+        "burnTokenButton": "Сжечь"
       }
     }
   }
