@@ -20,7 +20,7 @@
       "endInLabel": "Закончится через",
       "startInLabel": "Начнется через",
       "endedLabel": "Закончен",
-      "currentBidLabel": "Текущая ставка",
+      "currentBidLabel": "Ставка",
       "collectionLabel": "Коллекция",
       "ownerLabel": "Владелец",
       "manageButton": "Управление",
@@ -100,10 +100,11 @@
       "leftTimeLabel": "Осталось",
       "endedLabel": "Закончен",
       "soldOutLabel": "Продано",
-      "myTicketsLabel": "Моих билетов",
+      "myTicketsLabel": "Я купил",
+      "ownerLabel": "Владелец",
       "collectionNameLabel": "Коллекция",
       "manageButton": "Управление",
-      "buyTicketsButton": "Купить"
+      "buyTicketsButton": "Участвовать"
     },
     "marketCard": {
       "priceLabel": "Цена",
@@ -116,14 +117,14 @@
       "title": "Сменить сеть"
     },
     "nftCard": {
-      "collectionNameLabel": "Имя коллекции",
+      "collectionNameLabel": "Коллекции",
       "ownerLabel": "Владелец",
       "manageButton": "Управление",
       "openButton": "Открыть"
     },
     "nftFilters": {
       "type": {
-        "none": "не выставлен",
+        "none": "Не выставлен",
         "market": "Рынок",
         "auction": "Аукцион",
         "lottery": "Лотерея"
@@ -138,7 +139,7 @@
         "creatingAsc": "Создание| Возрастание",
         "creatingDesc": "Создание| Убывание"
       },
-      "nftTypeLabel": "Тип",
+      "nftTypeLabel": "Размещен в",
       "selectNftTypeLabel": "Выбрать тип NFT",
       "mediaTypeLabel": "Медиа",
       "selectMediaTypeLabel": "Выбрать медиа",
