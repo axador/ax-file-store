@@ -72,7 +72,6 @@
     "createSaleNFTForm": {
       "title": "-",
       "paymentTokenLabel": "-",
-
       "fixedPriceLabel": "-",
       "fixedPricePlaceholder": "-",
       "createMarketPositionButton": "-"
@@ -83,18 +82,18 @@
       "copyright": "-{year}"
     },
     "navigation": {
-      "lotteryLinkLabel": "-",
-      "becomeCreatorLinkLabel": "-",
-      "explorerLinkLabel": "-",
-      "connectButton": "-",
+      "lotteryLinkLabel": "Лотерея",
+      "becomeCreatorLinkLabel": "Стать минтером",
+      "explorerLinkLabel": "Поиск",
+      "connectButton": "Подключить",
       "miniProfile": {
-        "adminLinkLabel": "-",
-        "profileLinkLabel": "-",
-        "disconnectButton": "-"
+        "adminLinkLabel": "Админ",
+        "profileLinkLabel": "Профиль",
+        "disconnectButton": "Отключить"
       },
       "walletForm": {
-        "title": "-",
-        "description": "-"
+        "title": "Кошелек",
+        "description": "Выберете подходящий для себя кошелек подключения"
       }
     },
     "lotteryCard": {
