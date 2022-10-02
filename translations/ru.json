@@ -139,7 +139,7 @@
         "creatingAsc": "Создание| Возрастание",
         "creatingDesc": "Создание| Убывание"
       },
-      "nftTypeLabel": "Размещен в",
+      "nftTypeLabel": "Размещение",
       "selectNftTypeLabel": "Выбрать тип NFT",
       "mediaTypeLabel": "Медиа",
       "selectMediaTypeLabel": "Выбрать медиа",
@@ -156,6 +156,7 @@
       }
     },
     "profileBanner": {
+      "copiedLabel": "Скопировано",
       "share": "Поделиться",
       "unknownUser": "Низвестный",
       "referralSettingsButton": "Рефералка",
