@@ -390,8 +390,8 @@
         "auctionBuyNowEventLabel": "Покупка (аукцион)",
         "lotteryEventLabel": "Лотерея",
         "priceColumnLabel": "Цена",
-        "fromColumnLabel": "От",
-        "toColumnLabel": "К",
+        "fromColumnLabel": "Отправил",
+        "toColumnLabel": "Получил",
         "txColumnLabel": "TX",
         "dateColumnLabel": "Событие произошло",
         "scannerLinkLabel": "Посмотреть на сканере"
