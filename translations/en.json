@@ -13,7 +13,15 @@
       "notZero": "-"
     },
     "approveButton": "-",
-    "loadMoreButton": "-"
+    "loadMoreButton": "-",
+    "time": {
+      "yearShortLabel": "",
+      "monthShortLabel": "",
+      "dayShortLabel": "",
+      "hourShortLabel": "",
+      "minuteShortLabel": "",
+      "secondShortLabel": ""
+    }
   },
   "components": {
     "auctionCard": {
