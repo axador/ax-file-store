@@ -20,7 +20,8 @@
       "dayShortLabel": "д",
       "hourShortLabel": "ч",
       "minuteShortLabel": "м",
-      "secondShortLabel": "с"
+      "secondShortLabel": "с",
+      "timeAgo": "{time} назад"
     }
   },
   "components": {
