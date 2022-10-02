@@ -346,7 +346,7 @@
       },
       "eventTimer": {
         "startEventLabel": "{eventName} начнется",
-        "endEventLabel": "-{eventName} закончится",
+        "endEventLabel": "{eventName} закончится",
         "days": "дней",
         "hours": "часов",
         "minutes": "минут",
@@ -393,7 +393,7 @@
         "fromColumnLabel": "От",
         "toColumnLabel": "К",
         "txColumnLabel": "TX",
-        "dateColumnLabel": "Дата",
+        "dateColumnLabel": "Событие произошло",
         "scannerLinkLabel": "Посмотреть на сканере"
       }
     }

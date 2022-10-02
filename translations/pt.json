@@ -156,8 +156,8 @@
       }
     },
     "profileBanner": {
-      "share": "-",
       "copiedLabel": "-",
+      "share": "-",
       "unknownUser": "-",
       "referralSettingsButton": "-",
       "editButton": "-"
@@ -303,6 +303,7 @@
       "notForSaleText": "-",
       "propertyOfLabel": "-",
       "priceHistoryTitle": "-",
+      "tokenActivityHistoryTitle": "-",
       "auctionBidForm": {
         "bidLabel": "-",
         "bidPlaceholder": "-",
@@ -380,6 +381,20 @@
         "createLotteryButton": "-",
         "transferToAccountButton": "-",
         "burnTokenButton": "-"
+      },
+      "tokenHistory": {
+        "eventColumnLabel": "-",
+        "mintEventLabel": "-",
+        "sellEventLabel": "-",
+        "auctionBidEventLabel": "-",
+        "auctionBuyNowEventLabel": "-",
+        "lotteryEventLabel": "-",
+        "priceColumnLabel": "-",
+        "fromColumnLabel": "-",
+        "toColumnLabel": "-",
+        "txColumnLabel": "-",
+        "dateColumnLabel": "-",
+        "scannerLinkLabel": "-"
       }
     }
   }
