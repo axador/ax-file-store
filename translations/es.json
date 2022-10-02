@@ -156,6 +156,7 @@
       }
     },
     "profileBanner": {
+      "copiedLabel": "-",
       "share": "-",
       "unknownUser": "-",
       "referralSettingsButton": "-",

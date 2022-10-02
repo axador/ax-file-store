@@ -157,6 +157,7 @@
     },
     "profileBanner": {
       "share": "-",
+      "copiedLabel": "-",
       "unknownUser": "-",
       "referralSettingsButton": "-",
       "editButton": "-"
