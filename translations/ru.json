@@ -303,6 +303,7 @@
       "notForSaleText": "Данный окен пока не учавствует ни в одном из событий",
       "propertyOfLabel": "Свойства токена ",
       "priceHistoryTitle": "История цены",
+      "tokenActivityHistoryTitle": "Активность токена",
       "auctionBidForm": {
         "bidLabel": "Ставка",
         "bidPlaceholder": "Ввведите ставку",
@@ -380,6 +381,20 @@
         "createLotteryButton": "Создать лотерею",
         "transferToAccountButton": "Передать",
         "burnTokenButton": "Сжечь"
+      },
+      "tokenHistory": {
+        "eventColumnLabel": "Событие",
+        "mintEventLabel": "Создание",
+        "sellEventLabel": "Покупка",
+        "auctionBidEventLabel": "Ставка",
+        "auctionBuyNowEventLabel": "Покупка (аукцион)",
+        "lotteryEventLabel": "Лотерея",
+        "priceColumnLabel": "Цена",
+        "fromColumnLabel": "От",
+        "toColumnLabel": "К",
+        "txColumnLabel": "TX",
+        "dateColumnLabel": "Дата",
+        "scannerLinkLabel": "Посмотреть на сканере"
       }
     }
   }
