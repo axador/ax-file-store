@@ -1,4 +1,4 @@
-field,ru,en,sp,pt
+field,ru,en,es,pt
 common.validation.required,Обязательное поле,The main field,,
 common.validation.notEqual,Поле не совпадает,The field does not match,,
 common.validation.beforeDate,Дата должна дыть до {boundary},The date must be before {boundary},,
