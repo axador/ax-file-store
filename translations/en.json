@@ -1,408 +1,398 @@
 {
   "common": {
     "validation": {
-      "required": "-",
-      "notEqual": "-",
-      "beforeDate": "-{boundary}",
-      "afterDate": "-{boundary}",
-      "lessThan": "-{boundary}",
-      "greatOrEqualThan": "-{boundary}",
-      "greatThan": "-{boundary}",
-      "balanceNotEnough": "-",
-      "invalidAddress": "-",
-      "notZero": "-"
+      "required": "The main field",
+      "notEqual": "The field does not match",
+      "beforeDate": "The date must be before {boundary}",
+      "afterDate": "The date must be after {boundary}",
+      "lessThan": "The value must be less than {boundary}",
+      "greatOrEqualThan": "The value must be more than {boundary} or equal",
+      "greatThan": "The value must be more than {boundary}",
+      "balanceNotEnough": "Balance is insufficient",
+      "invalidAddress": "Address format is incorrect",
+      "notZero": "Zero is incorrect"
     },
-    "approveButton": "-",
-    "loadMoreButton": "-",
+    "approveButton": "Confirm",
+    "loadMoreButton": "Load more",
     "time": {
-      "yearShortLabel": "",
-      "monthShortLabel": "",
-      "dayShortLabel": "",
-      "hourShortLabel": "",
-      "minuteShortLabel": "",
-      "secondShortLabel": ""
+      "yearShortLabel": "y",
+      "monthShortLabel": "m",
+      "dayShortLabel": "d",
+      "hourShortLabel": "h",
+      "minuteShortLabel": "m",
+      "secondShortLabel": "s",
+      "timeAgo": "{time} ago"
     }
   },
   "components": {
     "auctionCard": {
-      "endInLabel": "-",
-      "startInLabel": "-",
-      "endedLabel": "-",
-      "currentBidLabel": "-",
-      "collectionLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "bidButton": "-"
+      "endInLabel": "Ends in",
+      "startInLabel": "Starts in",
+      "endedLabel": "Ended",
+      "currentBidLabel": "Bid",
+      "collectionLabel": "Collection",
+      "ownerLabel": "Owner",
+      "manageButton": "Management",
+      "bidButton": "Bid"
     },
     "burnNFTForm": {
-      "title": "-",
-      "alert": "-",
-      "description": "-",
-      "securityCodeHelpLabel": "-",
-      "securityCodeLabel": "-",
-      "securityCodePlaceholder": "-",
-      "burnButton": "-"
+      "title": "Burn",
+      "alert": "WARNING",
+      "description": "The token will be burnt. The operation cannot be canceled.",
+      "securityCodeHelpLabel": "Security code",
+      "securityCodeLabel": "Security code",
+      "securityCodePlaceholder": "Enter 6 characters",
+      "burnButton": "Burn"
     },
     "collectionCard": {
-      "itemsInCollectionLabel": "-",
-      "openButton": "-"
+      "itemsInCollectionLabel": "Collection",
+      "openButton": "Open"
     },
     "createAuctionNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "startPriceLabel": "-",
-      "startPricePlaceholder": "-",
-      "buyNowPriceLabel": "-",
-      "buyNowPricePlaceholder": "-",
-      "auctionTypeLabel": "-",
-      "startedNowTypeLabel": "-",
-      "startedNowDescription": "-",
-      "durationLabel": "-",
-      "durationPlaceholder": "-",
-      "limitTypeLabel": "-",
-      "startDateLabel": "-",
-      "endDateLabel": "-",
-      "walletAccessCheck": "-",
-      "quantityCheckLabel": "-",
-      "quantityCheckPlaceholder": "-",
-      "createAuctionButton": "-"
+      "title": "Create an auction",
+      "paymentTokenLabel": "Payment token",
+      "startPriceLabel": "Starting price",
+      "startPricePlaceholder": "Enter price",
+      "buyNowPriceLabel": "Instant purchase price",
+      "buyNowPricePlaceholder": "Enter price",
+      "auctionTypeLabel": "Type",
+      "startedNowTypeLabel": "Instant launch",
+      "startedNowDescription": "The auction starts immediately",
+      "durationLabel": "Duration",
+      "durationPlaceholder": "Enter duration",
+      "limitTypeLabel": "Delayed",
+      "startDateLabel": "Start",
+      "endDateLabel": "End",
+      "walletAccessCheck": "",
+      "quantityCheckLabel": "Number of author's tokens",
+      "quantityCheckPlaceholder": "Enter the quantity of tokens",
+      "createAuctionButton": "Create"
     },
     "createLotteryNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "maxTicketLabel": "-",
-      "maxTicketPlaceholder": "-",
-      "ticketPriceLabel": "-",
-      "ticketPricePlaceholder": "-",
-      "endDateLabel": "-",
-      "createLotteryButton": "-"
+      "title": "Create a lottery",
+      "paymentTokenLabel": "Payment token",
+      "maxTicketLabel": "Number of tickets",
+      "maxTicketPlaceholder": "Enter quantity of tickets",
+      "ticketPriceLabel": "Ticket price",
+      "ticketPricePlaceholder": "Enter ticket price",
+      "endDateLabel": "End",
+      "createLotteryButton": "Create"
     },
     "createSaleNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-
-      "fixedPriceLabel": "-",
-      "fixedPricePlaceholder": "-",
-      "createMarketPositionButton": "-"
+      "title": "Sell",
+      "paymentTokenLabel": "Payment token",
+      "fixedPriceLabel": "Price",
+      "fixedPricePlaceholder": "Enter the price",
+      "createMarketPositionButton": "Sell"
     },
     "footer": {
-      "privacyLinkLabel": "-",
-      "termsLinkLabel": "-",
-      "copyright": "-{year}"
+      "privacyLinkLabel": "Privacy",
+      "termsLinkLabel": "Terms",
+      "copyright": "©{year} Mediacoin | All rights reserved"
     },
     "navigation": {
-      "lotteryLinkLabel": "-",
-      "becomeCreatorLinkLabel": "-",
-      "explorerLinkLabel": "-",
-      "connectButton": "-",
+      "lotteryLinkLabel": "Lottery",
+      "becomeCreatorLinkLabel": "Become a minter",
+      "explorerLinkLabel": "Search",
+      "connectButton": "Connect",
       "miniProfile": {
-        "adminLinkLabel": "-",
-        "profileLinkLabel": "-",
-        "disconnectButton": "-"
+        "adminLinkLabel": "Admin",
+        "profileLinkLabel": "Profile",
+        "disconnectButton": "Disconnect"
       },
       "walletForm": {
-        "title": "-",
-        "description": "-"
+        "title": "Wallet",
+        "description": "Select an appropriate connect wallet"
       }
     },
     "lotteryCard": {
-      "leftTimeLabel": "-",
-      "endedLabel": "-",
-      "soldOutLabel": "-",
-      "myTicketsLabel": "-",
-      "collectionNameLabel": "-",
-      "manageButton": "-",
-      "buyTicketsButton": "-"
+      "leftTimeLabel": "Left:",
+      "endedLabel": "Ended",
+      "soldOutLabel": "Sold out",
+      "myTicketsLabel": "I bought",
+      "ownerLabel": "Owner",
+      "collectionNameLabel": "Collection",
+      "manageButton": "Manage",
+      "buyTicketsButton": "Participate"
     },
     "marketCard": {
-      "priceLabel": "-",
-      "collectionNameLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "buyButton": "-"
+      "priceLabel": "Price",
+      "collectionNameLabel": "Collection",
+      "ownerLabel": "Owner",
+      "manageButton": "Manage",
+      "buyButton": "Buy"
     },
-    "networkSwitcher": {
-      "title": "-"
-    },
+    "networkSwitcher": { "title": "Change network" },
     "nftCard": {
-      "collectionNameLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "openButton": "-"
+      "collectionNameLabel": "Collections",
+      "ownerLabel": "Owner",
+      "manageButton": "Manage",
+      "openButton": "Open"
     },
     "nftFilters": {
       "type": {
-        "none": "-",
-        "market": "-",
-        "auction": "-",
-        "lottery": "-"
+        "none": "Not exposed",
+        "market": "Market",
+        "auction": "Auction",
+        "lottery": "Lottery"
       },
       "media": {
-        "audio": "-",
-        "image": "-",
-        "3d": "-",
-        "video": "-"
+        "audio": "Audio",
+        "image": "Image",
+        "3d": "3D",
+        "video": "Video"
       },
       "sorting": {
-        "creatingAsc": "-",
-        "creatingDesc": "-"
+        "creatingAsc": "Creation | Ascending",
+        "creatingDesc": "Creation | Descending"
       },
-      "nftTypeLabel": "-",
-      "selectNftTypeLabel": "-",
-      "mediaTypeLabel": "-",
-      "selectMediaTypeLabel": "-",
-      "sortingLabel": "-"
+      "nftTypeLabel": "Placement",
+      "selectNftTypeLabel": "Select an NFT type",
+      "mediaTypeLabel": "Media",
+      "selectMediaTypeLabel": "Select media",
+      "sortingLabel": "Sorting"
     },
     "notifications": {
       "completed": {
-        "transactionCompletedLabel": "-",
-        "transactionFailedLabel": "-",
-        "openScannerLinkLabel": "-"
+        "transactionCompletedLabel": "Transaction is complete",
+        "transactionFailedLabel": "Transaction failed",
+        "openScannerLinkLabel": "Open scanner"
       },
-      "mining": {
-        "operationAmountInPendingLabel": "-{txCountPending}"
-      }
+      "mining": { "operationAmountInPendingLabel": "Pending {txCountPending}" }
     },
     "profileBanner": {
-      "copiedLabel": "-",
-      "share": "-",
-      "unknownUser": "-",
-      "referralSettingsButton": "-",
-      "editButton": "-"
+      "copiedLabel": "Copied",
+      "share": "Share",
+      "unknownUser": "Unknown",
+      "referralSettingsButton": "Referral",
+      "editButton": "Edit"
     },
     "profileSidebar": {
-      "createNftLink": "-",
-      "portfolio": "-",
-      "collections": "-"
+      "createNftLink": "Create NFT",
+      "portfolio": "Portfolio",
+      "collections": "Collection"
     },
     "transferNFTForm": {
-      "title": "-",
-      "description": "-",
-      "accountLabel": "-",
-      "accountPlaceholder": "-",
-      "transferButton": "-"
+      "title": "Transfer token",
+      "description": "Token transferring to another user. The operation cannot be canceled.",
+      "accountLabel": "Wallet address",
+      "accountPlaceholder": "Enter address",
+      "transferButton": "Transfer"
     },
     "txErrorPopup": {
-      "title": "-",
-      "copyHelpLabel": "-",
-      "copyButton": "-",
-      "closeButton": "-",
-      "defaultError": "-"
+      "title": "Error",
+      "copyHelpLabel": "Copied",
+      "copyButton": "Copy",
+      "closeButton": "Close",
+      "defaultError": "Operation canceled by user."
     }
   },
   "pages": {
     "becomeCreatorPage": {
-      "title": "-",
-      "description": "-",
-      "minterMessage": "-",
-      "requestedMessage": "-",
-      "rejectedMessage": "-",
-      "becomeCreatorButton": "-"
+      "title": "Become a minter",
+      "description": "Create a request to become a minter. You will be able to create and place tokens on the market, and launch lotteries and auctions.",
+      "minterMessage": "You are already a minter.",
+      "requestedMessage": "Your request is pending.",
+      "rejectedMessage": "Your request was rejected.",
+      "becomeCreatorButton": "Become a minter"
     },
     "collectionExplorerPage": {
       "collectionInfo": {
-        "unknownCreatorLabel": "-",
-        "ownerAmountLabel": "-",
-        "itemsInCollectionLabel": "-",
-        "editButton": "-"
+        "unknownCreatorLabel": "Unknown",
+        "ownerAmountLabel": "Owners",
+        "itemsInCollectionLabel": "In collection",
+        "editButton": "Edit"
       },
       "editCollectionForm": {
-        "unknownCreatorLabel": "-",
-        "uploadRestrictionLabel": "-{restriction}",
-        "titleLabel": "-",
-        "titlePlaceholder": "-",
-        "descriptionLabel": "-",
-        "descriptionPlaceholder": "-",
-        "ownerAmountLabel": "-",
-        "itemsInCollectionLabel": "-",
-        "saveButton": "-",
-        "closeButton": "-"
+        "unknownCreatorLabel": "Unknown",
+        "uploadRestrictionLabel": "File size: up to {restriction}",
+        "titleLabel": "Name",
+        "titlePlaceholder": "Enter name",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Enter description",
+        "ownerAmountLabel": "Owners",
+        "itemsInCollectionLabel": "In collection",
+        "saveButton": "Save",
+        "closeButton": "Close"
       }
     },
-    "collectionsExplorerPage": {
-      "collectionNamePlaceholder": "-"
-    },
+    "collectionsExplorerPage": { "collectionNamePlaceholder": "Enter name" },
     "explorePage": {
-      "tokensTab": "-",
-      "lotteriesTab": "-",
-      "collectionsTab": "-"
+      "tokensTab": "Tokens",
+      "lotteriesTab": "Lotteries",
+      "collectionsTab": "Collections"
     },
     "mainPage": {
       "auctionTape": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
+        "title": "Auctions",
+        "description": "We collected the best works from the best creators.",
+        "moreLink": "See all"
       },
       "collectionTape": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
+        "title": "Latest collection",
+        "description": "Find what you like and enrich your portfolio",
+        "moreLink": "Create your collection"
       },
       "recentList": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
+        "title": "New quality tokens",
+        "description": "We care for content quality – all the best for you.",
+        "moreLink": "Find new items"
       },
       "topSection": {
-        "title": "-",
-        "description": "-",
-        "profileLinkLabel": "-",
-        "artsLabel": "-",
-        "tradingVolumeLable": "-",
-        "participatorsLabel": "-",
-        "openCollectionsButton": "-"
+        "title": "Create, Find & Collect NFT",
+        "description": "Buy and sell NFT from the best artists. More than 1000 premium digital masterpieces are available for you!",
+        "profileLinkLabel": "Start collecting",
+        "artsLabel": "Arts",
+        "tradingVolumeLable": "Volume",
+        "participatorsLabel": "Participants",
+        "openCollectionsButton": "See more"
       }
     },
     "masterPage": {
-      "lotteryLinkLabel": "-",
-      "becomeCreatorLinkLabel": "-",
-      "explorerLinkLabel": "-"
+      "lotteryLinkLabel": "Lotteries",
+      "becomeCreatorLinkLabel": "Become a minter",
+      "explorerLinkLabel": "Search"
     },
-    "profileCollectionsPage": {
-      "emptyList": "-"
-    },
+    "profileCollectionsPage": { "emptyList": "The list is empty." },
     "profileEditPage": {
-      "title": "-",
+      "title": "Edit profile",
       "profileEditForm": {
-        "commonSectionTitle": "-",
-        "firstNameLabel": "-",
-        "firstNamePlaceholder": "-",
-        "lastNameLabel": "-",
-        "lastNamePlaceholder": "-",
-        "descriptionLabel": "-",
-        "descriptionPlaceholder": "-",
-        "socialSectionTitle": "-",
-        "emailLabel": "-",
-        "emailPlaceholder": "-",
-        "instagramLabel": "-",
-        "instagramPlaceholder": "-",
-        "telegramLabel": "-",
-        "telegramPlaceholder": "-",
-        "twitterLabel": "-",
-        "twitterPlaceholder": "-",
-        "signAlert": "-",
-        "cancelButton": "-",
-        "updateButton": "-"
+        "commonSectionTitle": "General information",
+        "firstNameLabel": "Name",
+        "firstNamePlaceholder": "Enter name",
+        "lastNameLabel": "Surname",
+        "lastNamePlaceholder": "Enter surname",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Enter description",
+        "socialSectionTitle": "Social media",
+        "emailLabel": "E-mail",
+        "emailPlaceholder": "Enter e-mail",
+        "instagramLabel": "Instagram link",
+        "instagramPlaceholder": "Insert link",
+        "telegramLabel": "Telegram link",
+        "telegramPlaceholder": "Insert link",
+        "twitterLabel": "Twitter link",
+        "twitterPlaceholder": "Insert link",
+        "signAlert": "Sign the message to save",
+        "cancelButton": "Cancel",
+        "updateButton": "Update"
       },
       "profileEditUploadPhoto": {
-        "description": "-",
-        "uploadPhotoButton": "-"
+        "description": "Upload a photo with a 1:1 ratio and up to 500KB",
+        "uploadPhotoButton": "Upload"
       }
     },
     "profilePage": {
-      "noProfileLabel": "-",
-      "joinToUsButton": "-",
+      "noProfileLabel": "You don't have a profile yet.",
+      "joinToUsButton": "Join",
       "referralFrom": {
-        "title": "-",
-        "referralLinkLabel": "-",
-        "copyButton": "-",
-        "copiedLabel": "-",
-        "referralUsersLabel": "-",
-        "earningDetailsLabel": "-"
+        "title": "Referral program",
+        "referralLinkLabel": "Referral link",
+        "copyButton": "Copy",
+        "copiedLabel": "Copied",
+        "referralUsersLabel": "Referrals",
+        "earningDetailsLabel": "Revenue details"
       }
     },
-    "profilePortfolioPage": {
-      "emptyList": "-"
-    },
-
+    "profilePortfolioPage": { "emptyList": "Your portfolio is empty." },
     "tokenPage": {
-      "creatorLabel": "-",
-      "ownerLabel": "-",
-      "notForSaleText": "-",
-      "propertyOfLabel": "-",
-      "priceHistoryTitle": "-",
-      "tokenActivityHistoryTitle": "-",
+      "creatorLabel": "Creator",
+      "ownerLabel": "Owner",
+      "notForSaleText": "This token doesn't participate in any event.",
+      "propertyOfLabel": "Token characteristics",
+      "priceHistoryTitle": "Price history",
+      "tokenActivityHistoryTitle": "Token activity",
       "auctionBidForm": {
-        "bidLabel": "-",
-        "bidPlaceholder": "-",
-        "bidButton": "-"
+        "bidLabel": "Bid",
+        "bidPlaceholder": "Enter bid",
+        "bidButton": "Make a bid"
       },
       "auctionForm": {
-        "currentBid": "-",
-        "minBid": "-",
-        "eventName": "-",
-        "auctionExpiredText": "-"
+        "currentBid": "Current bid",
+        "minBid": "Minimum bid",
+        "eventName": "Auction",
+        "auctionExpiredText": "Auction ended."
       },
       "auctionInstantForm": {
-        "instantBuyLabel": "-",
-        "buyNowButton": "-"
+        "instantBuyLabel": "Buy now",
+        "buyNowButton": "Buy"
       },
       "buyForm": {
-        "priceLabel": "-",
-        "royaltyFeeLabel": "-",
-        "buyButton": "-"
+        "priceLabel": "Price",
+        "royaltyFeeLabel": "Author's fee",
+        "buyButton": "Buy"
       },
       "buyTicketForm": {
-        "iBoughtLabel": "-",
-        "ticketPriceLabel": "-",
-        "ticketsSoldLabel": "-",
-        "myShare": "-{share}",
-        "myTicketsValue": "-{ticketsLeft}",
-        "soldOutLabel": "-",
-        "eventName": "-",
-        "ticketsLabel": "-",
-        "ticketsPlaceholder": "-",
-        "userSpendLabel": "-",
-        "soldOutButton": "-",
-        "buyButton": "-",
-        "lotteryEndedText": "-"
+        "iBoughtLabel": "I bought",
+        "ticketPriceLabel": "Ticket price",
+        "ticketsSoldLabel": "Sold tickets",
+        "myShare": "Share {share}",
+        "myTicketsValue": "I bought {ticketsLeft}",
+        "soldOutLabel": "Everything is sold out",
+        "eventName": "Lottery",
+        "ticketsLabel": "Tickets",
+        "ticketsPlaceholder": "Enter quantity of tickets",
+        "userSpendLabel": "You will spend",
+        "soldOutButton": "Everything is sold out",
+        "buyButton": "Buy",
+        "lotteryEndedText": "Lottery ended."
       },
       "cancelSaleForm": {
-        "priceLabel": "-",
-        "royaltiesLabel": "-",
-        "cancelButton": "-"
+        "priceLabel": "Price",
+        "royaltiesLabel": "Author's fee",
+        "cancelButton": "Cancel"
       },
       "eventTimer": {
-        "startEventLabel": "-{eventName}",
-        "endEventLabel": "-{eventName}",
-        "days": "-",
-        "hours": "-",
-        "minutes": "-",
-        "seconds": "-",
-        "eventEndWarning": "-{eventName}"
+        "startEventLabel": "{eventName} starts",
+        "endEventLabel": "{eventName ends",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds",
+        "eventEndWarning": "{eventName} ended"
       },
       "manageAuctionForm": {
-        "currentBid": "-",
-        "minBid": "-",
-        "eventName": "-",
-        "auctionExpiredText": "-",
-        "hasBidWarning": "-",
-        "finalizeButton": "-",
-        "cancelButton": "-"
+        "currentBid": "Current bid",
+        "minBid": "Minimum bid",
+        "eventName": "Auction",
+        "auctionExpiredText": "Auction ended",
+        "hasBidWarning": "Bids are made",
+        "finalizeButton": "Finish",
+        "cancelButton": "Cancel"
       },
       "manageLotteryForm": {
-        "ticketPriceLabel": "-",
-        "ticketsLeftLabel": "-",
-        "soldOutLabel": "-",
-        "ticketsLeftValueLabel": "-{ticketsLeft}",
-        "soldShare": "-{share}",
-        "eventName": "-",
-        "lotteryNotEndedMessage": "-",
-        "winnerLabel": "-",
-        "finalizeButton": "-",
-        "cancelButton": "-"
+        "ticketPriceLabel": "Ticket price",
+        "ticketsLeftLabel": "Left",
+        "soldOutLabel": "Everything is sold out",
+        "ticketsLeftValueLabel": "Left: {ticketsLeft}",
+        "soldShare": "Share: {share}",
+        "eventName": "Lottery",
+        "lotteryNotEndedMessage": "Lottery is still on",
+        "winnerLabel": "Winner",
+        "finalizeButton": "Finish",
+        "cancelButton": "Cancel"
       },
       "managerTokenForm": {
-        "royaltyFeeLabel": "-",
-        "sellButton": "-",
-        "createAuctionButton": "-",
-        "createLotteryButton": "-",
-        "transferToAccountButton": "-",
-        "burnTokenButton": "-"
+        "royaltyFeeLabel": "Author's fee",
+        "sellButton": "Sell",
+        "createAuctionButton": "Create an auction",
+        "createLotteryButton": "Create a lottery",
+        "transferToAccountButton": "Transfer",
+        "burnTokenButton": "Burn"
       },
       "tokenHistory": {
-        "eventColumnLabel": "-",
-        "mintEventLabel": "-",
-        "sellEventLabel": "-",
-        "auctionBidEventLabel": "-",
-        "auctionBuyNowEventLabel": "-",
-        "lotteryEventLabel": "-",
-        "priceColumnLabel": "-",
-        "fromColumnLabel": "-",
-        "toColumnLabel": "-",
-        "txColumnLabel": "-",
-        "dateColumnLabel": "-",
-        "scannerLinkLabel": "-"
+        "eventColumnLabel": "Event",
+        "mintEventLabel": "Creation",
+        "sellEventLabel": "Purchase",
+        "auctionBidEventLabel": "Bid",
+        "auctionBuyNowEventLabel": "Purchase (auction)",
+        "lotteryEventLabel": "Lottery",
+        "priceColumnLabel": "Price",
+        "fromColumnLabel": "Send",
+        "toColumnLabel": "Recived",
+        "txColumnLabel": "TX",
+        "dateColumnLabel": "The event happened",
+        "scannerLinkLabel": "Open scanner"
       }
     }
   }

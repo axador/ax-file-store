@@ -1,408 +1,353 @@
 {
   "common": {
     "validation": {
-      "required": "-",
-      "notEqual": "-",
-      "beforeDate": "-{boundary}",
-      "afterDate": "-{boundary}",
-      "lessThan": "-{boundary}",
-      "greatOrEqualThan": "-{boundary}",
-      "greatThan": "-{boundary}",
-      "balanceNotEnough": "-",
-      "invalidAddress": "-",
-      "notZero": "-"
+      "required": "",
+      "notEqual": "",
+      "beforeDate": "",
+      "afterDate": "",
+      "lessThan": "",
+      "greatOrEqualThan": "",
+      "greatThan": "",
+      "balanceNotEnough": "",
+      "invalidAddress": "",
+      "notZero": ""
     },
-    "approveButton": "-",
-    "loadMoreButton": "-",
+    "approveButton": "",
+    "loadMoreButton": "",
     "time": {
       "yearShortLabel": "",
       "monthShortLabel": "",
       "dayShortLabel": "",
       "hourShortLabel": "",
       "minuteShortLabel": "",
-      "secondShortLabel": ""
+      "secondShortLabel": "",
+      "timeAgo": ""
     }
   },
   "components": {
     "auctionCard": {
-      "endInLabel": "-",
-      "startInLabel": "-",
-      "endedLabel": "-",
-      "currentBidLabel": "-",
-      "collectionLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "bidButton": "-"
+      "endInLabel": "",
+      "startInLabel": "",
+      "endedLabel": "",
+      "currentBidLabel": "",
+      "collectionLabel": "",
+      "ownerLabel": "",
+      "manageButton": "",
+      "bidButton": ""
     },
     "burnNFTForm": {
-      "title": "-",
-      "alert": "-",
-      "description": "-",
-      "securityCodeHelpLabel": "-",
-      "securityCodeLabel": "-",
-      "securityCodePlaceholder": "-",
-      "burnButton": "-"
+      "title": "",
+      "alert": "",
+      "description": "",
+      "securityCodeHelpLabel": "",
+      "securityCodeLabel": "",
+      "securityCodePlaceholder": "",
+      "burnButton": ""
     },
-    "collectionCard": {
-      "itemsInCollectionLabel": "-",
-      "openButton": "-"
-    },
+    "collectionCard": { "itemsInCollectionLabel": "", "openButton": "" },
     "createAuctionNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "startPriceLabel": "-",
-      "startPricePlaceholder": "-",
-      "buyNowPriceLabel": "-",
-      "buyNowPricePlaceholder": "-",
-      "auctionTypeLabel": "-",
-      "startedNowTypeLabel": "-",
-      "startedNowDescription": "-",
-      "durationLabel": "-",
-      "durationPlaceholder": "-",
-      "limitTypeLabel": "-",
-      "startDateLabel": "-",
-      "endDateLabel": "-",
-      "walletAccessCheck": "-",
-      "quantityCheckLabel": "-",
-      "quantityCheckPlaceholder": "-",
-      "createAuctionButton": "-"
+      "title": "",
+      "paymentTokenLabel": "",
+      "startPriceLabel": "",
+      "startPricePlaceholder": "",
+      "buyNowPriceLabel": "",
+      "buyNowPricePlaceholder": "",
+      "auctionTypeLabel": "",
+      "startedNowTypeLabel": "",
+      "startedNowDescription": "",
+      "durationLabel": "",
+      "durationPlaceholder": "",
+      "limitTypeLabel": "",
+      "startDateLabel": "",
+      "endDateLabel": "",
+      "walletAccessCheck": "",
+      "quantityCheckLabel": "",
+      "quantityCheckPlaceholder": "",
+      "createAuctionButton": ""
     },
     "createLotteryNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-      "maxTicketLabel": "-",
-      "maxTicketPlaceholder": "-",
-      "ticketPriceLabel": "-",
-      "ticketPricePlaceholder": "-",
-      "endDateLabel": "-",
-      "createLotteryButton": "-"
+      "title": "",
+      "paymentTokenLabel": "",
+      "maxTicketLabel": "",
+      "maxTicketPlaceholder": "",
+      "ticketPriceLabel": "",
+      "ticketPricePlaceholder": "",
+      "endDateLabel": "",
+      "createLotteryButton": ""
     },
     "createSaleNFTForm": {
-      "title": "-",
-      "paymentTokenLabel": "-",
-
-      "fixedPriceLabel": "-",
-      "fixedPricePlaceholder": "-",
-      "createMarketPositionButton": "-"
+      "title": "",
+      "paymentTokenLabel": "",
+      "fixedPriceLabel": "",
+      "fixedPricePlaceholder": "",
+      "createMarketPositionButton": ""
     },
-    "footer": {
-      "privacyLinkLabel": "-",
-      "termsLinkLabel": "-",
-      "copyright": "-{year}"
-    },
+    "footer": { "privacyLinkLabel": "", "termsLinkLabel": "", "copyright": "" },
     "navigation": {
-      "lotteryLinkLabel": "-",
-      "becomeCreatorLinkLabel": "-",
-      "explorerLinkLabel": "-",
-      "connectButton": "-",
+      "lotteryLinkLabel": "",
+      "becomeCreatorLinkLabel": "",
+      "explorerLinkLabel": "",
+      "connectButton": "",
       "miniProfile": {
-        "adminLinkLabel": "-",
-        "profileLinkLabel": "-",
-        "disconnectButton": "-"
+        "adminLinkLabel": "",
+        "profileLinkLabel": "",
+        "disconnectButton": ""
       },
-      "walletForm": {
-        "title": "-",
-        "description": "-"
-      }
+      "walletForm": { "title": "", "description": "" }
     },
     "lotteryCard": {
-      "leftTimeLabel": "-",
-      "endedLabel": "-",
-      "soldOutLabel": "-",
-      "myTicketsLabel": "-",
-      "collectionNameLabel": "-",
-      "manageButton": "-",
-      "buyTicketsButton": "-"
+      "leftTimeLabel": "",
+      "endedLabel": "",
+      "soldOutLabel": "",
+      "myTicketsLabel": "",
+      "ownerLabel": "",
+      "collectionNameLabel": "",
+      "manageButton": "",
+      "buyTicketsButton": ""
     },
     "marketCard": {
-      "priceLabel": "-",
-      "collectionNameLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "buyButton": "-"
+      "priceLabel": "",
+      "collectionNameLabel": "",
+      "ownerLabel": "",
+      "manageButton": "",
+      "buyButton": ""
     },
-    "networkSwitcher": {
-      "title": "-"
-    },
+    "networkSwitcher": { "title": "" },
     "nftCard": {
-      "collectionNameLabel": "-",
-      "ownerLabel": "-",
-      "manageButton": "-",
-      "openButton": "-"
+      "collectionNameLabel": "",
+      "ownerLabel": "",
+      "manageButton": "",
+      "openButton": ""
     },
     "nftFilters": {
-      "type": {
-        "none": "-",
-        "market": "-",
-        "auction": "-",
-        "lottery": "-"
-      },
-      "media": {
-        "audio": "-",
-        "image": "-",
-        "3d": "-",
-        "video": "-"
-      },
-      "sorting": {
-        "creatingAsc": "-",
-        "creatingDesc": "-"
-      },
-      "nftTypeLabel": "-",
-      "selectNftTypeLabel": "-",
-      "mediaTypeLabel": "-",
-      "selectMediaTypeLabel": "-",
-      "sortingLabel": "-"
+      "type": { "none": "", "market": "", "auction": "", "lottery": "" },
+      "media": { "audio": "", "image": "", "3d": "", "video": "" },
+      "sorting": { "creatingAsc": "", "creatingDesc": "" },
+      "nftTypeLabel": "",
+      "selectNftTypeLabel": "",
+      "mediaTypeLabel": "",
+      "selectMediaTypeLabel": "",
+      "sortingLabel": ""
     },
     "notifications": {
       "completed": {
-        "transactionCompletedLabel": "-",
-        "transactionFailedLabel": "-",
-        "openScannerLinkLabel": "-"
+        "transactionCompletedLabel": "",
+        "transactionFailedLabel": "",
+        "openScannerLinkLabel": ""
       },
-      "mining": {
-        "operationAmountInPendingLabel": "-{txCountPending}"
-      }
+      "mining": { "operationAmountInPendingLabel": "" }
     },
     "profileBanner": {
-      "copiedLabel": "-",
-      "share": "-",
-      "unknownUser": "-",
-      "referralSettingsButton": "-",
-      "editButton": "-"
+      "copiedLabel": "",
+      "share": "",
+      "unknownUser": "",
+      "referralSettingsButton": "",
+      "editButton": ""
     },
     "profileSidebar": {
-      "createNftLink": "-",
-      "portfolio": "-",
-      "collections": "-"
+      "createNftLink": "",
+      "portfolio": "",
+      "collections": ""
     },
     "transferNFTForm": {
-      "title": "-",
-      "description": "-",
-      "accountLabel": "-",
-      "accountPlaceholder": "-",
-      "transferButton": "-"
+      "title": "",
+      "description": "",
+      "accountLabel": "",
+      "accountPlaceholder": "",
+      "transferButton": ""
     },
     "txErrorPopup": {
-      "title": "-",
-      "copyHelpLabel": "-",
-      "copyButton": "-",
-      "closeButton": "-",
-      "defaultError": "-"
+      "title": "",
+      "copyHelpLabel": "",
+      "copyButton": "",
+      "closeButton": "",
+      "defaultError": ""
     }
   },
   "pages": {
     "becomeCreatorPage": {
-      "title": "-",
-      "description": "-",
-      "minterMessage": "-",
-      "requestedMessage": "-",
-      "rejectedMessage": "-",
-      "becomeCreatorButton": "-"
+      "title": "",
+      "description": "",
+      "minterMessage": "",
+      "requestedMessage": "",
+      "rejectedMessage": "",
+      "becomeCreatorButton": ""
     },
     "collectionExplorerPage": {
       "collectionInfo": {
-        "unknownCreatorLabel": "-",
-        "ownerAmountLabel": "-",
-        "itemsInCollectionLabel": "-",
-        "editButton": "-"
+        "unknownCreatorLabel": "",
+        "ownerAmountLabel": "",
+        "itemsInCollectionLabel": "",
+        "editButton": ""
       },
       "editCollectionForm": {
-        "unknownCreatorLabel": "-",
-        "uploadRestrictionLabel": "-{restriction}",
-        "titleLabel": "-",
-        "titlePlaceholder": "-",
-        "descriptionLabel": "-",
-        "descriptionPlaceholder": "-",
-        "ownerAmountLabel": "-",
-        "itemsInCollectionLabel": "-",
-        "saveButton": "-",
-        "closeButton": "-"
+        "unknownCreatorLabel": "",
+        "uploadRestrictionLabel": "",
+        "titleLabel": "",
+        "titlePlaceholder": "",
+        "descriptionLabel": "",
+        "descriptionPlaceholder": "",
+        "ownerAmountLabel": "",
+        "itemsInCollectionLabel": "",
+        "saveButton": "",
+        "closeButton": ""
       }
     },
-    "collectionsExplorerPage": {
-      "collectionNamePlaceholder": "-"
-    },
+    "collectionsExplorerPage": { "collectionNamePlaceholder": "" },
     "explorePage": {
-      "tokensTab": "-",
-      "lotteriesTab": "-",
-      "collectionsTab": "-"
+      "tokensTab": "",
+      "lotteriesTab": "",
+      "collectionsTab": ""
     },
     "mainPage": {
-      "auctionTape": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
-      },
-      "collectionTape": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
-      },
-      "recentList": {
-        "title": "-",
-        "description": "-",
-        "moreLink": "-"
-      },
+      "auctionTape": { "title": "", "description": "", "moreLink": "" },
+      "collectionTape": { "title": "", "description": "", "moreLink": "" },
+      "recentList": { "title": "", "description": "", "moreLink": "" },
       "topSection": {
-        "title": "-",
-        "description": "-",
-        "profileLinkLabel": "-",
-        "artsLabel": "-",
-        "tradingVolumeLable": "-",
-        "participatorsLabel": "-",
-        "openCollectionsButton": "-"
+        "title": "",
+        "description": "",
+        "profileLinkLabel": "",
+        "artsLabel": "",
+        "tradingVolumeLable": "",
+        "participatorsLabel": "",
+        "openCollectionsButton": ""
       }
     },
     "masterPage": {
-      "lotteryLinkLabel": "-",
-      "becomeCreatorLinkLabel": "-",
-      "explorerLinkLabel": "-"
+      "lotteryLinkLabel": "",
+      "becomeCreatorLinkLabel": "",
+      "explorerLinkLabel": ""
     },
-    "profileCollectionsPage": {
-      "emptyList": "-"
-    },
+    "profileCollectionsPage": { "emptyList": "" },
     "profileEditPage": {
-      "title": "-",
+      "title": "",
       "profileEditForm": {
-        "commonSectionTitle": "-",
-        "firstNameLabel": "-",
-        "firstNamePlaceholder": "-",
-        "lastNameLabel": "-",
-        "lastNamePlaceholder": "-",
-        "descriptionLabel": "-",
-        "descriptionPlaceholder": "-",
-        "socialSectionTitle": "-",
-        "emailLabel": "-",
-        "emailPlaceholder": "-",
-        "instagramLabel": "-",
-        "instagramPlaceholder": "-",
-        "telegramLabel": "-",
-        "telegramPlaceholder": "-",
-        "twitterLabel": "-",
-        "twitterPlaceholder": "-",
-        "signAlert": "-",
-        "cancelButton": "-",
-        "updateButton": "-"
+        "commonSectionTitle": "",
+        "firstNameLabel": "",
+        "firstNamePlaceholder": "",
+        "lastNameLabel": "",
+        "lastNamePlaceholder": "",
+        "descriptionLabel": "",
+        "descriptionPlaceholder": "",
+        "socialSectionTitle": "",
+        "emailLabel": "",
+        "emailPlaceholder": "",
+        "instagramLabel": "",
+        "instagramPlaceholder": "",
+        "telegramLabel": "",
+        "telegramPlaceholder": "",
+        "twitterLabel": "",
+        "twitterPlaceholder": "",
+        "signAlert": "",
+        "cancelButton": "",
+        "updateButton": ""
       },
-      "profileEditUploadPhoto": {
-        "description": "-",
-        "uploadPhotoButton": "-"
-      }
+      "profileEditUploadPhoto": { "description": "", "uploadPhotoButton": "" }
     },
     "profilePage": {
-      "noProfileLabel": "-",
-      "joinToUsButton": "-",
+      "noProfileLabel": "",
+      "joinToUsButton": "",
       "referralFrom": {
-        "title": "-",
-        "referralLinkLabel": "-",
-        "copyButton": "-",
-        "copiedLabel": "-",
-        "referralUsersLabel": "-",
-        "earningDetailsLabel": "-"
+        "title": "",
+        "referralLinkLabel": "",
+        "copyButton": "",
+        "copiedLabel": "",
+        "referralUsersLabel": "",
+        "earningDetailsLabel": ""
       }
     },
-    "profilePortfolioPage": {
-      "emptyList": "-"
-    },
-
+    "profilePortfolioPage": { "emptyList": "" },
     "tokenPage": {
-      "creatorLabel": "-",
-      "ownerLabel": "-",
-      "notForSaleText": "-",
-      "propertyOfLabel": "-",
-      "priceHistoryTitle": "-",
-      "tokenActivityHistoryTitle": "-",
+      "creatorLabel": "",
+      "ownerLabel": "",
+      "notForSaleText": "",
+      "propertyOfLabel": "",
+      "priceHistoryTitle": "",
+      "tokenActivityHistoryTitle": "",
       "auctionBidForm": {
-        "bidLabel": "-",
-        "bidPlaceholder": "-",
-        "bidButton": "-"
+        "bidLabel": "",
+        "bidPlaceholder": "",
+        "bidButton": ""
       },
       "auctionForm": {
-        "currentBid": "-",
-        "minBid": "-",
-        "eventName": "-",
-        "auctionExpiredText": "-"
+        "currentBid": "",
+        "minBid": "",
+        "eventName": "",
+        "auctionExpiredText": ""
       },
-      "auctionInstantForm": {
-        "instantBuyLabel": "-",
-        "buyNowButton": "-"
-      },
-      "buyForm": {
-        "priceLabel": "-",
-        "royaltyFeeLabel": "-",
-        "buyButton": "-"
-      },
+      "auctionInstantForm": { "instantBuyLabel": "", "buyNowButton": "" },
+      "buyForm": { "priceLabel": "", "royaltyFeeLabel": "", "buyButton": "" },
       "buyTicketForm": {
-        "iBoughtLabel": "-",
-        "ticketPriceLabel": "-",
-        "ticketsSoldLabel": "-",
-        "myShare": "-{share}",
-        "myTicketsValue": "-{ticketsLeft}",
-        "soldOutLabel": "-",
-        "eventName": "-",
-        "ticketsLabel": "-",
-        "ticketsPlaceholder": "-",
-        "userSpendLabel": "-",
-        "soldOutButton": "-",
-        "buyButton": "-",
-        "lotteryEndedText": "-"
+        "iBoughtLabel": "",
+        "ticketPriceLabel": "",
+        "ticketsSoldLabel": "",
+        "myShare": "",
+        "myTicketsValue": "",
+        "soldOutLabel": "",
+        "eventName": "",
+        "ticketsLabel": "",
+        "ticketsPlaceholder": "",
+        "userSpendLabel": "",
+        "soldOutButton": "",
+        "buyButton": "",
+        "lotteryEndedText": ""
       },
       "cancelSaleForm": {
-        "priceLabel": "-",
-        "royaltiesLabel": "-",
-        "cancelButton": "-"
+        "priceLabel": "",
+        "royaltiesLabel": "",
+        "cancelButton": ""
       },
       "eventTimer": {
-        "startEventLabel": "-{eventName}",
-        "endEventLabel": "-{eventName}",
-        "days": "-",
-        "hours": "-",
-        "minutes": "-",
-        "seconds": "-",
-        "eventEndWarning": "-{eventName}"
+        "startEventLabel": "",
+        "endEventLabel": "",
+        "days": "",
+        "hours": "",
+        "minutes": "",
+        "seconds": "",
+        "eventEndWarning": ""
       },
       "manageAuctionForm": {
-        "currentBid": "-",
-        "minBid": "-",
-        "eventName": "-",
-        "auctionExpiredText": "-",
-        "hasBidWarning": "-",
-        "finalizeButton": "-",
-        "cancelButton": "-"
+        "currentBid": "",
+        "minBid": "",
+        "eventName": "",
+        "auctionExpiredText": "",
+        "hasBidWarning": "",
+        "finalizeButton": "",
+        "cancelButton": ""
       },
       "manageLotteryForm": {
-        "ticketPriceLabel": "-",
-        "ticketsLeftLabel": "-",
-        "soldOutLabel": "-",
-        "ticketsLeftValueLabel": "-{ticketsLeft}",
-        "soldShare": "-{share}",
-        "eventName": "-",
-        "lotteryNotEndedMessage": "-",
-        "winnerLabel": "-",
-        "finalizeButton": "-",
-        "cancelButton": "-"
+        "ticketPriceLabel": "",
+        "ticketsLeftLabel": "",
+        "soldOutLabel": "",
+        "ticketsLeftValueLabel": "",
+        "soldShare": "",
+        "eventName": "",
+        "lotteryNotEndedMessage": "",
+        "winnerLabel": "",
+        "finalizeButton": "",
+        "cancelButton": ""
       },
       "managerTokenForm": {
-        "royaltyFeeLabel": "-",
-        "sellButton": "-",
-        "createAuctionButton": "-",
-        "createLotteryButton": "-",
-        "transferToAccountButton": "-",
-        "burnTokenButton": "-"
+        "royaltyFeeLabel": "",
+        "sellButton": "",
+        "createAuctionButton": "",
+        "createLotteryButton": "",
+        "transferToAccountButton": "",
+        "burnTokenButton": ""
       },
       "tokenHistory": {
-        "eventColumnLabel": "-",
-        "mintEventLabel": "-",
-        "sellEventLabel": "-",
-        "auctionBidEventLabel": "-",
-        "auctionBuyNowEventLabel": "-",
-        "lotteryEventLabel": "-",
-        "priceColumnLabel": "-",
-        "fromColumnLabel": "-",
-        "toColumnLabel": "-",
-        "txColumnLabel": "-",
-        "dateColumnLabel": "-",
-        "scannerLinkLabel": "-"
+        "eventColumnLabel": "",
+        "mintEventLabel": "",
+        "sellEventLabel": "",
+        "auctionBidEventLabel": "",
+        "auctionBuyNowEventLabel": "",
+        "lotteryEventLabel": "",
+        "priceColumnLabel": "",
+        "fromColumnLabel": "",
+        "toColumnLabel": "",
+        "txColumnLabel": "",
+        "dateColumnLabel": "",
+        "scannerLinkLabel": ""
       }
     }
   }
