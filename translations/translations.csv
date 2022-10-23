@@ -160,6 +160,8 @@ pages.collectionExplorerPage.collectionInfo.unknownCreatorLabel,Неизвест
 pages.collectionExplorerPage.collectionInfo.ownerAmountLabel,Владельцев,Owners,,
 pages.collectionExplorerPage.collectionInfo.itemsInCollectionLabel,В колекции,In collection,,
 pages.collectionExplorerPage.collectionInfo.editButton,Ред.,Edit,,
+pages.collectionExplorerPage.collectionInfo.noDealsLabel,Ещё нет сделок,No deals yet,,
+pages.collectionExplorerPage.collectionInfo.tradingVolumeLabel,Торговый объем,Trading volume,,
 pages.collectionExplorerPage.editCollectionForm.unknownCreatorLabel,Неизвестный,Unknown,,
 pages.collectionExplorerPage.editCollectionForm.uploadRestrictionLabel,Рзмер файла до {restriction},File size: up to {restriction},,
 pages.collectionExplorerPage.editCollectionForm.titleLabel,Название,Name,,
