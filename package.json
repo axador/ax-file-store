@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sync-translation": "ts-node ./translation-sync.ts"
+    "sync-translation": "ts-node ./translation-sync.ts",
+    "translation-compare": "ts-node ./translation-compare.ts"
   },
   "repository": {
     "type": "git",
