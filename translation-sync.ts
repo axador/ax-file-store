@@ -18,9 +18,7 @@ const setProperty = (obj: any, propPath: string, value: string): any => {
 };
 
 const runner = async () => {
-  const result = await csv({ delimiter: ";" }).fromFile(
-    "./translations/translations.csv"
-  );
+  const result = await csv().fromFile("./translations/translations.csv");
 
   const languageLibrary: {} = {} as any;
 
