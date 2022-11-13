@@ -159,7 +159,8 @@ pages.becomeCreatorPage.rejectedMessage,Вам было отказано в ро
 pages.becomeCreatorPage.becomeCreatorButton,Стать минтером,Become a minter,Convertirse en un minter,Tornar-se um minter
 pages.collectionExplorerPage.collectionInfo.unknownCreatorLabel,Неизвестный,Unknown,Desconocido ,Desconhecido
 pages.collectionExplorerPage.collectionInfo.ownerAmountLabel,Владельцев,Owners,Propietarios ,Proprietários
-pages.collectionExplorerPage.collectionInfo.itemsInCollectionLabel,В коллекции,In collection,En la colección,Na coleção
+pages.collectionExplorerPage.collectionInfo.tradedTokensCountLabel,В коллекции,In collection,En la colección,Na coleção
+pages.collectionExplorerPage.collectionInfo.itemsInCollectionLabel,,,,
 pages.collectionExplorerPage.collectionInfo.editButton,Ред.,Edit,Editar ,Editar
 pages.collectionExplorerPage.collectionInfo.noDealsLabel,Ещё нет сделок,No deals yet,Aún no hay transacciones ,Ainda não há transações
 pages.collectionExplorerPage.collectionInfo.tradingVolumeLabel,Торговый объём,Trading volume,Volumen comercial,Volume de negociações
@@ -170,6 +171,7 @@ pages.collectionExplorerPage.editCollectionForm.titlePlaceholder,Введите 
 pages.collectionExplorerPage.editCollectionForm.descriptionLabel,Описание,Description,Descripción,Descrição
 pages.collectionExplorerPage.editCollectionForm.descriptionPlaceholder,Введите описание,Enter description,Introduzca una descripción,Introduza uma descrição
 pages.collectionExplorerPage.editCollectionForm.ownerAmountLabel,Владельцев,Owners,Propietarios ,Proprietários
+pages.collectionExplorerPage.editCollectionForm.tradedTokensCountLabel,,,,
 pages.collectionExplorerPage.editCollectionForm.itemsInCollectionLabel,В коллекции,In collection,En colección,Na coleção
 pages.collectionExplorerPage.editCollectionForm.saveButton,Сохранить,Save,Guardar,Salvar
 pages.collectionExplorerPage.editCollectionForm.closeButton,Закрыть,Close,Cerrar,Fechar
