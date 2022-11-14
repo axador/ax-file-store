@@ -171,8 +171,8 @@ pages.collectionExplorerPage.editCollectionForm.titlePlaceholder,Введите 
 pages.collectionExplorerPage.editCollectionForm.descriptionLabel,Описание,Description,Descripción,Descrição
 pages.collectionExplorerPage.editCollectionForm.descriptionPlaceholder,Введите описание,Enter description,Introduzca una descripción,Introduza uma descrição
 pages.collectionExplorerPage.editCollectionForm.ownerAmountLabel,Владельцев,Owners,Propietarios ,Proprietários
-pages.collectionExplorerPage.editCollectionForm.tradedTokensCountLabel,,,,
-pages.collectionExplorerPage.editCollectionForm.itemsInCollectionLabel,В коллекции,In collection,En colección,Na coleção
+pages.collectionExplorerPage.editCollectionForm.tradedTokensCountLabel,В коллекции,In collection,En colección,Na coleção
+pages.collectionExplorerPage.editCollectionForm.itemsInCollectionLabel,,,,
 pages.collectionExplorerPage.editCollectionForm.saveButton,Сохранить,Save,Guardar,Salvar
 pages.collectionExplorerPage.editCollectionForm.closeButton,Закрыть,Close,Cerrar,Fechar
 pages.collectionsExplorerPage.collectionNamePlaceholder,Введите название,Enter name,Introduzca el nombre,Introduza o nome
