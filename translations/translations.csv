@@ -35,6 +35,7 @@ components.txMessages.sellItem,Размещение токена #{tokenId} на
 components.txMessages.claimBonusOfToken,Снятие бонуса в токенах {symbol},Claiming bonus in {symbol},Retiro del bono en tokens {symbol},Retirada de bonus em tokens {symbol}
 components.txMessages.transferFrom,Передача токена #{tokenId} аккаунту {toAccount},Transfering token #{tokenId} to {toAccount},Transferencia del token #{tokenId} a la cuenta {toAccount},Transferência do token #{tokenId} para a conta {toAccount}
 components.txMessages.burn,Сжигание токена #{tokenId},Burning token #{tokenId},Quema del token #{tokenId},Queima do token #{tokenId}
+components.txMessages.bulkBuyMarketPositions,Куплено {amount} NFTs,{amount},{amount},{amount}
 components.auctionCard.endInLabel,Закончится через,Ends in,Terminará en,Terminará em
 components.auctionCard.startInLabel,Начнётся через,Starts in,Comenzará en,Começará em
 components.auctionCard.endedLabel,Закончен,Ended,Finalizado,Finalizado
@@ -52,6 +53,12 @@ components.burnNFTForm.securityCodePlaceholder,Введите 6 символов
 components.burnNFTForm.burnButton,Сжечь,Burn,Quemar,Queimar
 components.collectionCard.itemsInCollectionLabel,Коллекция,Collection,Colección,Coleção
 components.collectionCard.openButton,Открыть,Open,Abrir,Abrir
+components.cartPopup.cartTitle,Корзина,,,
+components.cartPopup.recipeTitle,Чек,,,
+components.cartPopup.recipeForm.totalInCurrencyLabel,Сумма в{symbol},{symbol},{symbol},{symbol}
+components.cartPopup.recipeForm.numberOfNftsLabel,x{amount} nft,x{amount} nft,{amount},{amount}
+components.cartPopup.recipeForm.approveButton,Подтвердить,,,
+components.cartPopup.recipeForm.buyButton,Купить,,,
 components.createAuctionNFTForm.title,Создать аукцион,Create an auction,Crear una subasta,Criar um leilão
 components.createAuctionNFTForm.paymentTokenLabel,Токен платежа,Payment token,Token del pago,Token do pagamento
 components.createAuctionNFTForm.startPriceLabel,Начальная цена,Starting price,Precio inicial,Preço inicial
@@ -66,7 +73,6 @@ components.createAuctionNFTForm.durationPlaceholder,Введите продол�
 components.createAuctionNFTForm.limitTypeLabel,Отложенный,Delayed,Programado ,Programado para
 components.createAuctionNFTForm.startDateLabel,Начало,Start,Comienzo,Início
 components.createAuctionNFTForm.endDateLabel,Конец,End,Final,Fim
-components.createAuctionNFTForm.walletAccessCheck,????,,????,????
 components.createAuctionNFTForm.quantityCheckLabel,Количество токенов автора,Number of author's tokens,Cantidad de tokens del autor,Número de tokens do autor
 components.createAuctionNFTForm.quantityCheckPlaceholder,Введите количество токенов,Enter the quantity of tokens,Introduzca la cantidad de tokens,Introduza o número de tokens
 components.createAuctionNFTForm.createAuctionButton,Создать,Create,Crear,Criar
@@ -108,6 +114,8 @@ components.marketCard.collectionNameLabel,Коллекция,Collection,Colecci�
 components.marketCard.ownerLabel,Владелец,Owner,Propietario,Proprietário
 components.marketCard.manageButton,Управление,Manage,Administración,Gerenciamento
 components.marketCard.buyButton,Купить,Buy,Comprar,Comprar
+components.marketCard.removeFromCartButton,Уд. из корзины,,,
+components.marketCard.addToCardButton,Доб. в корзину,,,
 components.networkSwitcher.title,Сменить сеть,Change network,Cambiar la red,Alterar a rede
 components.nftCard.collectionNameLabel,Коллекции,Collections,Colecciones,Coleções
 components.nftCard.ownerLabel,Владелец,Owner,Propietario,Proprietário
@@ -132,6 +140,8 @@ components.notifications.completed.transactionCompletedLabel,Транзакци�
 components.notifications.completed.transactionFailedLabel,Транзакция не выполнена,Transaction failed,Transacción fallida,A transação falhou
 components.notifications.completed.openScannerLinkLabel,Открыть сканер,Open scanner,Abrir escáner,Abrir escâner
 components.notifications.mining.operationAmountInPendingLabel,В процессе {txCountPending},Pending {txCountPending},En proceso {txCountPending},Processando {txCountPending}
+components.notifications.goodNotification.addedNftToCartLabel,Добавлен NFT в корзину,,,
+components.notifications.goodNotification.removedNftFromCartLabel,Удален NFT из корзины ,,,
 components.profileBanner.copiedLabel,Скопировано,Copied,Copiado,Copiado
 components.profileBanner.share,Поделиться,Share,Compartir,Compartilhar
 components.profileBanner.unknownUser,Неизвестный,Unknown,Desconocido,Desconhecido
@@ -160,8 +170,8 @@ pages.becomeCreatorPage.becomeCreatorButton,Стать минтером,Become a
 pages.collectionExplorerPage.collectionInfo.unknownCreatorLabel,Неизвестный,Unknown,Desconocido ,Desconhecido
 pages.collectionExplorerPage.collectionInfo.ownerAmountLabel,Владельцев,Owners,Propietarios ,Proprietários
 pages.collectionExplorerPage.collectionInfo.itemsInCollectionLabel,В коллекции,In collection,En la colección,Na coleção
-pages.collectionExplorerPage.collectionInfo.tradedTokensCountLabel,,,,
-pages.collectionExplorerPage.collectionInfo.editButton,Ред.,Edit,Editar ,Editar
+pages.collectionExplorerPage.collectionInfo.tradedTokensCountLabel,Торгуемые,Traded,En negociación,Em negociação
+pages.collectionExplorerPage.collectionInfo.editButton,Ред.,Edit,Editar,Editar
 pages.collectionExplorerPage.collectionInfo.noDealsLabel,Ещё нет сделок,No deals yet,Aún no hay transacciones ,Ainda não há transações
 pages.collectionExplorerPage.collectionInfo.tradingVolumeLabel,Торговый объём,Trading volume,Volumen comercial,Volume de negociações
 pages.collectionExplorerPage.editCollectionForm.unknownCreatorLabel,Неизвестный,Unknown,Desconocido ,Desconhecido
@@ -172,7 +182,7 @@ pages.collectionExplorerPage.editCollectionForm.descriptionLabel,Описани�
 pages.collectionExplorerPage.editCollectionForm.descriptionPlaceholder,Введите описание,Enter description,Introduzca una descripción,Introduza uma descrição
 pages.collectionExplorerPage.editCollectionForm.ownerAmountLabel,Владельцев,Owners,Propietarios ,Proprietários
 pages.collectionExplorerPage.editCollectionForm.itemsInCollectionLabel,В коллекции,In collection,En colección,Na coleção
-pages.collectionExplorerPage.editCollectionForm.tradedTokensCountLabel,,,,
+pages.collectionExplorerPage.editCollectionForm.tradedTokensCountLabel,Торгуемые,Traded,En negociación,Em negociação
 pages.collectionExplorerPage.editCollectionForm.saveButton,Сохранить,Save,Guardar,Salvar
 pages.collectionExplorerPage.editCollectionForm.closeButton,Закрыть,Close,Cerrar,Fechar
 pages.collectionsExplorerPage.collectionNamePlaceholder,Введите название,Enter name,Introduzca el nombre,Introduza o nome
@@ -189,7 +199,7 @@ pages.mainPage.recentList.title,Новинки от наших звёзд,New qu
 pages.mainPage.recentList.description,"Мы заботимся о качестве контента, всё лучшее для тебя",We care for content quality – all the best for you.,"Nos preocupamos por la calidad del contenido, todo lo mejor para ti","Nos preocupamos com a qualidade do conteúdo, tudo de melhor para você"
 pages.mainPage.recentList.moreLink,Найти новинки,Find new items,Encontrar novedades,Encontrar novidades
 pages.mainPage.topSection.title,"Создавай, Находи & Собирай NFT","Create, Explore & Collect Digital Art NFTs","Crea, encuentra y colecciona los NFTs","Crie, encontre e colecione NFTs"
-pages.mainPage.topSection.description,"Покупай и продавай NFT от лучших мировых звёзд, спортсменов, блогеров, бизнес-тренеров и известных личностей. Более 1000 премиальных цифровых произведений искусства доступны для тебя!",Buy and sell NFT from the best artists. More than 1000 premium digital masterpieces are available for you!,"Compra y vende los NFTs de las mejores estrellas mundiales, deportistas, blogueros y entrenadores de negocio. ¡Más de 1000 obras de arte digitales premium disponibles para ti!","Compre e venda NFTs de maiores estrelas, atletas, blogueiros, coaches de negócios e celebridades do mundo.
+pages.mainPage.topSection.description,"Покупай и продавай NFT от лучших мировых звёзд, спортсменов, блогеров, бизнес-тренеров и известных личностей. Более 1000 премиальных цифровых произведений искусства доступны для тебя!",Buy and sell NFT from the best artists. More than 1000 premium digital masterpieces are available for you!,"Compra y vende los NFTs de las mejores estrellas del mundo, deportistas, blogueros y entrenadores de negocio. ¡Más de 1000 obras de arte digitales premium disponibles para ti!","Compre e venda NFTs de maiores estrelas, atletas, blogueiros, coaches de negócios e celebridades do mundo.
 Mais de 1000 obras de arte digitais premium disponíveis para você!"
 pages.mainPage.topSection.profileLinkLabel,Начать собирать,Start collecting,Empezar a coleccionar,Começar a colecionar
 pages.mainPage.topSection.artsLabel,Arts,Arts,Arts,Arts
@@ -243,7 +253,7 @@ pages.tokenPage.propertyOfLabel,Свойства токена,Token characterist
 pages.tokenPage.priceHistoryTitle,История цены,Price history,Historial de precios,Histórico de preços
 pages.tokenPage.tokenActivityHistoryTitle,Активность токена,Token activity,Actividad del token,Atividade do token
 pages.tokenPage.tokenPreview.collectionLabel,Коллекции,Collection,Colecciones,Coleções
-pages.tokenPage.auctionBidForm.bidLabel,Ставка,Bid,Apuesta,Aposta
+pages.tokenPage.auctionBidForm.bidLabel,Ставка,Bid,Apuesta,Apostar
 pages.tokenPage.auctionBidForm.bidPlaceholder,Введите ставку,Enter bid,Introduzca la apuesta,Introduza a aposta
 pages.tokenPage.auctionBidForm.bidButton,Поставить,Make a bid,Apostar ,Apostar
 pages.tokenPage.auctionForm.currentBid,Текущая ставка,Current bid,Apuesta actual,Aposta atual
@@ -304,7 +314,7 @@ pages.tokenPage.managerTokenForm.burnTokenButton,Сжечь,Burn,Quemar,Queimar
 pages.tokenPage.tokenHistory.eventColumnLabel,Событие,Event,Evento,Evento
 pages.tokenPage.tokenHistory.mintEventLabel,Создание,Creation,Creación,Criação
 pages.tokenPage.tokenHistory.sellEventLabel,Покупка,Purchase,Compra,Compra
-pages.tokenPage.tokenHistory.auctionBidEventLabel,Ставка,Bid,Apuesta,Aposta
+pages.tokenPage.tokenHistory.auctionBidEventLabel,Ставка,Bid,Apuesta,Apostar
 pages.tokenPage.tokenHistory.auctionBuyNowEventLabel,Покупка (аукцион),Purchase (auction),Compra (subasta),Compra (leilão)
 pages.tokenPage.tokenHistory.lotteryEventLabel,Лотерея,Lottery,Lotería,Loteria
 pages.tokenPage.tokenHistory.priceColumnLabel,Цена,Price,Precio,Preço
