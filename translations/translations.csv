@@ -98,6 +98,7 @@ components.navigation.explorerLinkLabel,Поиск,Explorer,Navegación,Navegaç
 components.navigation.connectButton,Подключить,Connect,Conectar,Conectar
 components.navigation.miniProfile.adminLinkLabel,Админ,Admin,Admin,Admin
 components.navigation.miniProfile.profileLinkLabel,Профиль,Profile,Perfil,Perfil
+components.navigation.miniProfile.cartLinkLabel,Корзина,,,
 components.navigation.miniProfile.disconnectButton,Отключить,Disconnect,Desconectar,Desconectar
 components.navigation.walletForm.title,Кошелёк,Wallet,Billetera,Carteira
 components.navigation.walletForm.description,Выберите подходящий для себя кошелёк подключения,Select an appropriate connect wallet,Elija la billetera de conexión más apropiada para Usted,Selecione a carteira de conexão apropriada para você
@@ -209,6 +210,7 @@ pages.mainPage.topSection.openCollectionsButton,Увидеть больше,See 
 pages.masterPage.lotteryLinkLabel,Лотереи,Lotteries,Loterías,Loterias
 pages.masterPage.becomeCreatorLinkLabel,Стать минтером,Become a minter,Convertirse en un minter,Tornar-se um minter
 pages.masterPage.explorerLinkLabel,Найти,Search,Buscar,Buscar
+pages.masterPage.cartLinkLabel,Корзина,,,
 pages.profileCollectionsPage.emptyList,Пока список пуст,The list is empty.,Hasta ahora la lista está vacía,"Por enquanto, a lista está vazia"
 pages.profileEditPage.title,Редактировать профиль,Edit profile,Editar perfil,Editar perfil
 pages.profileEditPage.profileEditForm.commonSectionTitle,Общая информация,General information,Información general,Informações gerais
