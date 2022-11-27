@@ -59,6 +59,7 @@ components.cartPopup.recipeForm.totalInCurrencyLabel,Сумма в{symbol},{symb
 components.cartPopup.recipeForm.numberOfNftsLabel,x{amount} nft,x{amount} nft,{amount},{amount}
 components.cartPopup.recipeForm.approveButton,Подтвердить,,,
 components.cartPopup.recipeForm.buyButton,Купить,,,
+components.cartPopup.recipeForm.soldLabel,Продан,,,
 components.createAuctionNFTForm.title,Создать аукцион,Create an auction,Crear una subasta,Criar um leilão
 components.createAuctionNFTForm.paymentTokenLabel,Токен платежа,Payment token,Token del pago,Token do pagamento
 components.createAuctionNFTForm.startPriceLabel,Начальная цена,Starting price,Precio inicial,Preço inicial
