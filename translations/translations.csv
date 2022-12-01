@@ -20,7 +20,7 @@ common.time.secondShortLabel,с,s,s,s
 common.time.timeAgo,{time} назад,{time} ago,{time} atrás,{time} atrás
 components.txMessages.nftApproveMessage,Подтверждение токена #{tokenId},Approving NFT token #{tokenId},Confirmación del token #{tokenId},Validação de token #{tokenId}
 components.txMessages.tokenApproveMessage,Подтверждение токена {symbol},Approving token {symbol},Confirmación del token {symbol},Validação de token {symbol}
-components.txMessages.bidPremium,Ставка {bid} токен #{tokenId},Bidding {bid} for token #{tokenId},Apuesta {bid} del token #{tokenId},Aposta {bid} no token #{tokenId}
+components.txMessages.bidPremium,Ставка {bid} токен #{tokenId},Bidding {bid} for token #{tokenId},Apuesta {bid} del token #{tokenId},Apostando {bid} no token #{tokenId}
 components.txMessages.buyNowSingle,Моментальная покупка токена #{tokenId},Instant buying token #{tokenId},Compra instantánea del token #{tokenId},Compra instantânea do token #{tokenId}
 components.txMessages.cancelAuction,Отмена аукциона #{tokenId},Canceling auction #{tokenId},Cancelar subasta #{tokenId},Cancelamento do leilão #{tokenId}
 components.txMessages.finalizeSingleAuction,Завершение аукциона #{tokenId},Finalizing auction #{tokenId},Fin de la subasta #{tokenId},Fim do leilão #{tokenId}
@@ -35,15 +35,15 @@ components.txMessages.sellItem,Размещение токена #{tokenId} на
 components.txMessages.claimBonusOfToken,Снятие бонуса в токенах {symbol},Claiming bonus in {symbol},Retiro del bono en tokens {symbol},Retirada de bonus em tokens {symbol}
 components.txMessages.transferFrom,Передача токена #{tokenId} аккаунту {toAccount},Transfering token #{tokenId} to {toAccount},Transferencia del token #{tokenId} a la cuenta {toAccount},Transferência do token #{tokenId} para a conta {toAccount}
 components.txMessages.burn,Сжигание токена #{tokenId},Burning token #{tokenId},Quema del token #{tokenId},Queima do token #{tokenId}
-components.txMessages.bulkBuyMarketPositions,Куплено {amount} NFTs,{amount},{amount},{amount}
+components.txMessages.bulkBuyMarketPositions,Куплено {amount} NFTs,Bought {amount} NFTs,Fueron comprados {amount} NFTs,Foram comprados {amount} NFTs
 components.auctionCard.endInLabel,Закончится через,Ends in,Terminará en,Terminará em
 components.auctionCard.startInLabel,Начнётся через,Starts in,Comenzará en,Começará em
 components.auctionCard.endedLabel,Закончен,Ended,Finalizado,Finalizado
-components.auctionCard.currentBidLabel,Ставка,Bid,Apuesta,Aposta
+components.auctionCard.currentBidLabel,Ставка,Bid,Apuesta,Apostar
 components.auctionCard.collectionLabel,Коллекция,Collection,Colección,Coleção
 components.auctionCard.ownerLabel,Владелец,Owner,Propietario,Proprietário
 components.auctionCard.manageButton,Управление,Management,Control,Gerenciamento
-components.auctionCard.bidButton,Ставка,Bid,Apuesta,Aposta
+components.auctionCard.bidButton,Ставка,Bid,Apuesta,Apostar
 components.burnNFTForm.title,Сжечь,Burn,Quemar,Queimar
 components.burnNFTForm.alert,ВНИМАНИЕ,WARNING,ATENCIÓN,ATENÇÂO
 components.burnNFTForm.description,"Токен будет уничтожен, операцию невозможно будет отменить.",The token will be burnt. The operation cannot be canceled.,El token será destruido. La operación no se podrá deshacer.,O token será queimado. A operação não poderá ser cancelada.
@@ -53,13 +53,13 @@ components.burnNFTForm.securityCodePlaceholder,Введите 6 символов
 components.burnNFTForm.burnButton,Сжечь,Burn,Quemar,Queimar
 components.collectionCard.itemsInCollectionLabel,Коллекция,Collection,Colección,Coleção
 components.collectionCard.openButton,Открыть,Open,Abrir,Abrir
-components.cartPopup.cartTitle,Корзина,,,
-components.cartPopup.recipeTitle,Чек,,,
-components.cartPopup.recipeForm.totalInCurrencyLabel,Сумма в{symbol},{symbol},{symbol},{symbol}
-components.cartPopup.recipeForm.numberOfNftsLabel,x{amount} nft,x{amount} nft,{amount},{amount}
-components.cartPopup.recipeForm.approveButton,Подтвердить,,,
-components.cartPopup.recipeForm.buyButton,Купить,,,
-components.cartPopup.recipeForm.soldLabel,Продан,,,
+components.cartPopup.cartTitle,Корзина,Cart,Carrito ,Carrinho
+components.cartPopup.recipeTitle,Чек,Check,Recibo,Recibo
+components.cartPopup.recipeForm.totalInCurrencyLabel,Сумма в{symbol},Amount in {symbol},Total en {symbol},Total em {symbol}
+components.cartPopup.recipeForm.numberOfNftsLabel,x{amount} nft,x{amount} nft,x{amount} nft,x{amount} nft
+components.cartPopup.recipeForm.approveButton,Подтвердить,Approve,Confirmar,Confirmar
+components.cartPopup.recipeForm.buyButton,Купить,Buy,Comprar ,Comprar
+components.cartPopup.recipeForm.soldLabel,Продан,Sold,Vendido,Vendido
 components.createAuctionNFTForm.title,Создать аукцион,Create an auction,Crear una subasta,Criar um leilão
 components.createAuctionNFTForm.paymentTokenLabel,Токен платежа,Payment token,Token del pago,Token do pagamento
 components.createAuctionNFTForm.startPriceLabel,Начальная цена,Starting price,Precio inicial,Preço inicial
@@ -99,7 +99,7 @@ components.navigation.explorerLinkLabel,Поиск,Explorer,Navegación,Navegaç
 components.navigation.connectButton,Подключить,Connect,Conectar,Conectar
 components.navigation.miniProfile.adminLinkLabel,Админ,Admin,Admin,Admin
 components.navigation.miniProfile.profileLinkLabel,Профиль,Profile,Perfil,Perfil
-components.navigation.miniProfile.cartLinkLabel,Корзина,,,
+components.navigation.miniProfile.cartLinkLabel,Корзина,Cart,Carrito,Carrinho
 components.navigation.miniProfile.disconnectButton,Отключить,Disconnect,Desconectar,Desconectar
 components.navigation.walletForm.title,Кошелёк,Wallet,Billetera,Carteira
 components.navigation.walletForm.description,Выберите подходящий для себя кошелёк подключения,Select an appropriate connect wallet,Elija la billetera de conexión más apropiada para Usted,Selecione a carteira de conexão apropriada para você
@@ -116,8 +116,8 @@ components.marketCard.collectionNameLabel,Коллекция,Collection,Colecci�
 components.marketCard.ownerLabel,Владелец,Owner,Propietario,Proprietário
 components.marketCard.manageButton,Управление,Manage,Administración,Gerenciamento
 components.marketCard.buyButton,Купить,Buy,Comprar,Comprar
-components.marketCard.removeFromCartButton,Уд. из корзины,,,
-components.marketCard.addToCardButton,Доб. в корзину,,,
+components.marketCard.removeFromCartButton,Уд. из корзины,remove from cart,Eliminar del carrito ,Remover do carrinho
+components.marketCard.addToCardButton,Доб. в корзину,Add to cart,Agregar al carrito,Adicionar ao carrinho
 components.networkSwitcher.title,Сменить сеть,Change network,Cambiar la red,Alterar a rede
 components.nftCard.collectionNameLabel,Коллекции,Collections,Colecciones,Coleções
 components.nftCard.ownerLabel,Владелец,Owner,Propietario,Proprietário
@@ -142,8 +142,8 @@ components.notifications.completed.transactionCompletedLabel,Транзакци�
 components.notifications.completed.transactionFailedLabel,Транзакция не выполнена,Transaction failed,Transacción fallida,A transação falhou
 components.notifications.completed.openScannerLinkLabel,Открыть сканер,Open scanner,Abrir escáner,Abrir escâner
 components.notifications.mining.operationAmountInPendingLabel,В процессе {txCountPending},Pending {txCountPending},En proceso {txCountPending},Processando {txCountPending}
-components.notifications.goodNotification.addedNftToCartLabel,Добавлен NFT в корзину,,,
-components.notifications.goodNotification.removedNftFromCartLabel,Удален NFT из корзины ,,,
+components.notifications.goodNotification.addedNftToCartLabel,Добавлен NFT в корзину,added to cart,NFT añadido al carrito ,NFT adicionado ao carrinho
+components.notifications.goodNotification.removedNftFromCartLabel,Удален NFT из корзины,removed from cart,NFT eliminado del carrito ,NFT removido do carrinho
 components.profileBanner.copiedLabel,Скопировано,Copied,Copiado,Copiado
 components.profileBanner.share,Поделиться,Share,Compartir,Compartilhar
 components.profileBanner.unknownUser,Неизвестный,Unknown,Desconocido,Desconhecido
@@ -173,7 +173,7 @@ pages.collectionExplorerPage.collectionInfo.unknownCreatorLabel,Неизвест
 pages.collectionExplorerPage.collectionInfo.ownerAmountLabel,Владельцев,Owners,Propietarios ,Proprietários
 pages.collectionExplorerPage.collectionInfo.itemsInCollectionLabel,В коллекции,In collection,En la colección,Na coleção
 pages.collectionExplorerPage.collectionInfo.tradedTokensCountLabel,Торгуемые,Traded,En negociación,Em negociação
-pages.collectionExplorerPage.collectionInfo.editButton,Ред.,Edit,Editar,Editar
+pages.collectionExplorerPage.collectionInfo.editButton,Ред.,Edit,Editar ,Editar
 pages.collectionExplorerPage.collectionInfo.noDealsLabel,Ещё нет сделок,No deals yet,Aún no hay transacciones ,Ainda não há transações
 pages.collectionExplorerPage.collectionInfo.tradingVolumeLabel,Торговый объём,Trading volume,Volumen comercial,Volume de negociações
 pages.collectionExplorerPage.editCollectionForm.unknownCreatorLabel,Неизвестный,Unknown,Desconocido ,Desconhecido
@@ -211,7 +211,7 @@ pages.mainPage.topSection.openCollectionsButton,Увидеть больше,See 
 pages.masterPage.lotteryLinkLabel,Лотереи,Lotteries,Loterías,Loterias
 pages.masterPage.becomeCreatorLinkLabel,Стать минтером,Become a minter,Convertirse en un minter,Tornar-se um minter
 pages.masterPage.explorerLinkLabel,Найти,Search,Buscar,Buscar
-pages.masterPage.cartLinkLabel,Корзина,,,
+pages.masterPage.cartLinkLabel,Корзина,Cart,Carrito ,Carrinho
 pages.profileCollectionsPage.emptyList,Пока список пуст,The list is empty.,Hasta ahora la lista está vacía,"Por enquanto, a lista está vazia"
 pages.profileEditPage.title,Редактировать профиль,Edit profile,Editar perfil,Editar perfil
 pages.profileEditPage.profileEditForm.commonSectionTitle,Общая информация,General information,Información general,Informações gerais
