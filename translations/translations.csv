@@ -57,12 +57,12 @@ components.cartPopup.cartTitle,Корзина,Cart,Carrito,Carrinho
 components.cartPopup.emptyCartLabel,Корзина пуста,,,
 components.cartPopup.openExplorerButton,Открыть обозреватель,,,
 components.cartPopup.missedTokenLabel,Уничтожен или скрыт,Burnt out or hidden,,
+components.cartPopup.soldLabel,Продан,Sold,Vendido,Vendido
 components.cartPopup.recipeTitle,Чек,Check,Recibo,Recibo
 components.cartPopup.recipeForm.totalInCurrencyLabel,Сумма в{symbol},Amount in {symbol},Total en {symbol},Total em {symbol}
 components.cartPopup.recipeForm.numberOfNftsLabel,x{amount} nft,x{amount} nft,x{amount} nft,x{amount} nft
 components.cartPopup.recipeForm.approveButton,Подтвердить,Approve,Confirmar,Confirmar
 components.cartPopup.recipeForm.buyButton,Купить,Buy,Comprar ,Comprar
-components.cartPopup.recipeForm.soldLabel,Продан,Sold,Vendido,Vendido
 components.createAuctionNFTForm.title,Создать аукцион,Create an auction,Crear una subasta,Criar um leilão
 components.createAuctionNFTForm.paymentTokenLabel,Токен платежа,Payment token,Token del pago,Token do pagamento
 components.createAuctionNFTForm.startPriceLabel,Начальная цена,Starting price,Precio inicial,Preço inicial
