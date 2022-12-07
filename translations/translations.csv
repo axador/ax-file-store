@@ -97,6 +97,7 @@ components.footer.privacyLinkLabel,Конфиденциальность,Privacy,
 components.footer.termsLinkLabel,Условия,Terms,Términos y condiciones,Termos
 components.footer.copyright,©{year} Mediacoin | Все права защищены,©{year} Mediacoin | All rights reserved,©{year} Mediacoin | Todos los derechos reservados,©{year} Mediacoin | Todos os direitos reservados
 components.navigation.lotteryLinkLabel,Лотерея,Lottery,Lotería,Loteria
+components.navigation.ratingLinkLabel,Рейтинг,Rating,,
 components.navigation.becomeCreatorLinkLabel,Стать минтером,Become a minter,Convertirse en un minter,Tornar-se um minter
 components.navigation.explorerLinkLabel,Поиск,Explorer,Navegación,Navegação
 components.navigation.connectButton,Подключить,Connect,Conectar,Conectar
@@ -212,6 +213,7 @@ pages.mainPage.topSection.tradingVolumeLable,Объём,Volume,Volumen,Volume
 pages.mainPage.topSection.participatorsLabel,Участников,Participants,Participantes,Participantes
 pages.mainPage.topSection.openCollectionsButton,Увидеть больше,See more,Ver más,Ver mais
 pages.masterPage.lotteryLinkLabel,Лотереи,Lotteries,Loterías,Loterias
+pages.masterPage.ratingLinkLabel,Рейтинг,Raiting,,
 pages.masterPage.becomeCreatorLinkLabel,Стать минтером,Become a minter,Convertirse en un minter,Tornar-se um minter
 pages.masterPage.explorerLinkLabel,Найти,Search,Buscar,Buscar
 pages.masterPage.cartLinkLabel,Корзина,Cart,Carrito ,Carrinho
