@@ -56,6 +56,7 @@ components.collectionCard.openButton,Открыть,Open,Abrir,Abrir
 components.cartPopup.cartTitle,Корзина,Cart,Carrito,Carrinho
 components.cartPopup.emptyCartLabel,Корзина пуста,,,
 components.cartPopup.openExplorerButton,Открыть обозреватель,,,
+components.cartPopup.missedTokenLabel,Уничтожен или скрыт,Burnt out or hidden,,
 components.cartPopup.recipeTitle,Чек,Check,Recibo,Recibo
 components.cartPopup.recipeForm.totalInCurrencyLabel,Сумма в{symbol},Amount in {symbol},Total en {symbol},Total em {symbol}
 components.cartPopup.recipeForm.numberOfNftsLabel,x{amount} nft,x{amount} nft,x{amount} nft,x{amount} nft
