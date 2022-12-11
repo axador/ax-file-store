@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "sync-translation": "ts-node ./translation-sync.ts",
-    "translation-compare": "ts-node ./translation-compare.ts"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/axador/ax-file-store.git"
@@ -17,12 +14,8 @@
     "url": "https://github.com/axador/ax-file-store/issues"
   },
   "homepage": "https://github.com/axador/ax-file-store#readme",
-  "dependencies": {
-    "csvtojson": "^2.0.10"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/lodash": "^4.14.186",
-    "@types/node-fetch": "^2.6.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   }
