@@ -363,7 +363,7 @@
             "type": "address"
           }
         ],
-        "internalType": "struct MCAuctionV4Storage.Auction",
+        "internalType": "struct MCAuctionV5Storage.Auction",
         "name": "auction",
         "type": "tuple"
       }
@@ -416,6 +416,11 @@
           {
             "internalType": "uint256",
             "name": "tokensByAuthor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "endAuctionDate",
             "type": "uint256"
           },
           {
@@ -567,49 +572,78 @@
   {
     "inputs": [
       {
-        "internalType": "address",
-        "name": "_nftContractAddress",
-        "type": "address"
+        "components": [
+          {
+            "internalType": "address",
+            "name": "nftContractAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "royaltyFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expireAt",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "auctionCreator",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "serviceSignature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct CreateAuctionVoucher",
+        "name": "voucher",
+        "type": "tuple"
       },
       {
-        "internalType": "uint256",
-        "name": "_tokenId",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_startPrice",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_buyNowPrice",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_startAuctionDate",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_endAuctionDate",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_royaltyFee",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_minAuthorTokenCount",
-        "type": "uint256"
-      },
-      {
-        "internalType": "address",
-        "name": "_priceToken",
-        "type": "address"
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "startPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "buyNowPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "startAuctionDate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "endAuctionDate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minAuthorTokenCount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "priceToken",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct MCAuctionV5Storage.CreateAuctionParams",
+        "name": "params",
+        "type": "tuple"
       }
     ],
     "name": "createSingleAuction",
